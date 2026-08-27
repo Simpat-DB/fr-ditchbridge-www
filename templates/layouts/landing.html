@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<!-- ── Hero Section ───────────────────────────────────────────── -->
+<section class="hero-section">
+  <div class="hero-inner">
+    <span class="hero-badge">🎯 Plateforme événementielle SaaS</span>
+    <h1 class="hero-title">
+      {page.data.greeting ?: 'Bienvenue sur DitchBridge'}
+    </h1>
+    <p class="hero-tagline">
+      {page.data.tagline ?: 'La plateforme qui simplifie l\'organisation de vos événements.'}
+    </p>
+    <div class="hero-actions">
+      <a href="{site.url.resolve('/product')}" class="btn-primary">
+        Découvrir l'offre →
+      </a>
+      <a href="{site.url.resolve('/contact')}" class="btn-secondary">
+        Demander une démo
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Feature highlights ─────────────────────────────────────── -->
+<div class="features-grid">
+  <div class="feature-card">
+    <div class="feature-card-icon">🗺️</div>
+    <h3>Vision globale</h3>
+    <p>Supervisez l'intégralité de votre événement depuis un tableau de bord unique : billetterie, accès, prestataires et flux en temps réel.</p>
+  </div>
+  <div class="feature-card">
+    <div class="feature-card-icon">⚡</div>
+    <h3>Réactivité terrain</h3>
+    <p>Escalade automatique des alertes, validation en un geste depuis mobile ou montre connectée — intervenez instantanément, partout.</p>
+  </div>
+  <div class="feature-card">
+    <div class="feature-card-icon">🤝</div>
+    <h3>Coordination fluide</h3>
+    <p>Connectez décideurs, équipes terrain et prestataires. Fini les silos : tout le monde dispose des bonnes informations au bon moment.</p>
+  </div>
+</div>
+
+<!-- ── Contenu Markdown (les 3 sections de l'index) ──────────── -->
+<section class="max-w-7xl mx-auto px-6 py-4 prose dark:prose-invert prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 max-w-none">
+  {#insert /}
+</section>
+
+<!-- ── CTA ────────────────────────────────────────────────────── -->
+<div class="max-w-7xl mx-auto px-6">
+  <div class="cta-section">
+    <h2>Prêt à piloter votre prochain événement ?</h2>
+    <p>Rejoignez les équipes qui font confiance à DitchBridge pour leurs grands rassemblements.</p>
+    <div class="flex gap-4 justify-center flex-wrap">
+      <a href="{site.url.resolve('/contact')}" class="btn-white">Demander une démo gratuite</a>
+      <a href="{site.url.resolve('/product')}" style="color:white;text-decoration:none;border:1px solid rgba(255,255,255,0.5);padding:0.75rem 1.5rem;border-radius:0.5rem;font-weight:600;font-size:0.875rem;display:inline-flex;align-items:center;gap:0.5rem;">
+        Voir l'offre complète
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ── Partenaire de recherche ────────────────────────────────── -->
+<div class="partner-section">
+  <p style="font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:var(--color-tertiary);margin-bottom:1rem;">Partenaire de recherche</p>
+  <h2>Une plateforme adossée à la recherche scientifique</h2>
+  <p>DitchBridge collabore avec le Centre Génie Industriel d'IMT Mines Albi et sa plateforme RIO pour intégrer des algorithmes décisionnels de pointe dans la gestion de vos événements.</p>
+  <div class="partner-card">
+    <span class="partner-logo">🏛️</span>
+    <div>
+      <p class="partner-name">IMT Mines Albi — Projet RIO</p>
+      <p class="partner-desc">Risk management &amp; Interoperability within Organization</p>
+    </div>
+  </div>
+</div>
