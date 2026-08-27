@@ -152,7 +152,7 @@
         @apply p-6 rounded-xl border border-card-border bg-card transition-shadow hover:shadow-md;
     }
     .feature-card-icon {
-        @apply w-10 h-10 rounded-lg flex items-center justify-center text-xl mb-4 bg-accent-500 bg-opacity-10;
+        @apply w-10 h-10 rounded-lg flex items-center justify-center text-xl mb-4 bg-accent-500/10;
     }
     .feature-card h3 { @apply text-lg font-semibold mb-2 text-primary; }
     .feature-card p { @apply text-secondary text-sm leading-relaxed; }
@@ -165,7 +165,7 @@
     .product-card h2 { @apply text-xl font-bold mb-3 text-primary; }
     .product-card p { @apply text-secondary text-sm leading-relaxed; }
     .product-card-tag {
-        @apply inline-block px-2 py-0.5 rounded text-xs font-medium bg-accent-500 bg-opacity-10 text-accent-600 mb-3;
+        @apply inline-block px-2 py-0.5 rounded text-xs font-medium bg-accent-500/10 text-accent-600 mb-3;
     }
 
     /* ── Team cards ──────────────────────────────────────────── */
