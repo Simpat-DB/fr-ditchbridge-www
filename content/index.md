@@ -1,9 +1,9 @@
 ---
 # layout: default
-title: DitchBidge
+title: Ditchbridge
 description: >-
-  DitchBidge 
-greeting: Bienvenu sur DitchBidge
+  Ditchbridge 
+greeting: Bienvenu sur Ditchbridge
 tagline: Votre assistant de coordination
 navigation:
   - title: L'offre

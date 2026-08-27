@@ -4,7 +4,7 @@ title: Recrutement
 # paginate: profiles
 ---
 
-![dev.png](profiles/2026-01-06-javadevelopper/dev.png)
+![dev.png](../profiles/2026-01-06-javadevelopper/dev.png)
 
 ### Fiche de Poste : Développeur / Architectes 
 
@@ -34,7 +34,7 @@ La communication et la proactivité sont la base.
 
 <hr />
 
-![devops.png](profiles/2026-01-10-devops/devops.png)
+![devops.png](../profiles/2026-01-10-devops/devops.png)
 
 ### Fiche de Poste : Ingénieur DevOps (Kube)
 
