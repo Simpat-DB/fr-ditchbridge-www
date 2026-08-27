@@ -94,7 +94,6 @@
                             <goal>generate-code</goal>
                             <goal>generate-code-tests</goal>
                             <goal>native-image-agent</goal>
-                            <goal>dev</goal>
                         </goals>
                         <configuration>
                             <!-- Force Quarkus à surveiller les changements d'un module local de thèmes/templates -->
