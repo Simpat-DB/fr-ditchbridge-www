@@ -4,7 +4,7 @@ title: Recrutement
 # paginate: profiles
 ---
 
-![dev.png](/profiles/2026-01-06-javadevelopper/dev.png)
+![dev.png](profiles/2026-01-06-javadevelopper/dev.png)
 
 ### Fiche de Poste : Développeur / Architectes 
 
@@ -24,8 +24,7 @@ ou garde champetre le titre importe peux, on veux s'eclater avec des technos qu'
 - Maîtrise des frameworks front-end (Quarkus, Quinoas etc.).
 - Bonne connaissance de 
 - Gestion des bases de données relationnelles (PostgreSQL, MySQL) et NoSQL (MongoDB).
-- Notion
-        Utilisation rigoureuse de Git et des outils de contrôle de version.
+- Utilisation rigoureuse de Git et des outils de contrôle de version.
 
 #### Profil recherché :
 
@@ -35,7 +34,7 @@ La communication et la proactivité sont la base.
 
 <hr />
 
-![devops.png](/profiles/2026-01-10-devops/devops.png)
+![devops.png](profiles/2026-01-10-devops/devops.png)
 
 ### Fiche de Poste : Ingénieur DevOps (Kube)
 
