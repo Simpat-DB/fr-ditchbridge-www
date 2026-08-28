@@ -1,5 +1,5 @@
 ---
-title: DitchBridge
+title: Ditchbridge
 ---
 
 ### Bienvenue chez DitchBridge, la plateforme SaaS qui simplifie l'organisation de vos événements de A à Z.
