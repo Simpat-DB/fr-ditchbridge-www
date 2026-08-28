@@ -108,7 +108,8 @@
         @apply inline-flex items-center gap-1 px-3 py-1.5 rounded-md border border-border text-secondary text-xs font-semibold uppercase cursor-pointer bg-surface hover:bg-surface-3 transition-all no-underline ml-2;
     }
     .lang-switcher .lang-active { @apply text-accent-500; }
-
+.header-social { @apply inline-flex items-center gap-2 ml-2; }
+.header-social-link { @apply text-secondary hover:text-accent-500 transition-colors flex items-center; }
     /* Navigation - Mobile */
     .mobile-nav { @apply md:hidden flex flex-col gap-3 mt-4 pt-4 border-t border-border; }
     .mobile-nav nav { @apply flex flex-col gap-2; }
