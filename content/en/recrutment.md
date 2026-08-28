@@ -4,7 +4,7 @@ title: Join Us
 
 ## We're hiring — come build with us
 
-At DitchBridge, we're not just looking for job titles. We want people who love great tech and want to make a real difference for the people using our platform.
+At Ditchbridge, we're not just looking for job titles. We want people who love great tech and want to make a real difference for the people using our platform.
 
 ---
 

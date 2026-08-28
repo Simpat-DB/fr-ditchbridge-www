@@ -4,7 +4,7 @@ title: Legal Notice
 
 ## Publisher
 
-**DitchBridge SAS**  
+**Ditchbridge SAS**  
 SaaS platform for event management
 
 ## Hosting
@@ -13,11 +13,11 @@ This website is hosted on cloud infrastructure compliant with applicable Europea
 
 ## Intellectual Property
 
-All content on this site (text, images, logos, graphics) is the exclusive property of DitchBridge SAS and is protected by French and international intellectual property laws. Any reproduction, even partial, is strictly prohibited without prior authorisation.
+All content on this site (text, images, logos, graphics) is the exclusive property of Ditchbridge SAS and is protected by French and international intellectual property laws. Any reproduction, even partial, is strictly prohibited without prior authorisation.
 
 ## Personal Data Protection
 
-DitchBridge SAS is committed to protecting user privacy and processing personal data in compliance with the General Data Protection Regulation (GDPR — EU Regulation 2016/679).
+Ditchbridge SAS is committed to protecting user privacy and processing personal data in compliance with the General Data Protection Regulation (GDPR — EU Regulation 2016/679).
 
 For any questions regarding your personal data, please contact us at: **contact@ditchbridge.fr**
 

@@ -4,11 +4,11 @@ title: Contactez-nous
 
 ## Vous souhaitez en savoir plus ?
 
-Que vous souhaitiez planifier une démonstration, discuter d'un partenariat ou simplement en apprendre davantage sur DitchBridge, notre équipe est là pour vous répondre.
+Que vous souhaitiez planifier une démonstration, discuter d'un partenariat ou simplement en apprendre davantage sur Ditchbridge, notre équipe est là pour vous répondre.
 
 ### Demande de démonstration
 
-Vous organisez des événements et souhaitez voir DitchBridge en action ? Écrivez-nous à **demo@ditchbridge.fr** et nous programmons une session personnalisée adaptée à vos enjeux.
+Vous organisez des événements et souhaitez voir Ditchbridge en action ? Écrivez-nous à **demo@ditchbridge.fr** et nous programmons une session personnalisée adaptée à vos enjeux.
 
 ### Partenariats & Recherche
 

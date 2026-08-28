@@ -4,11 +4,11 @@ title: Contact Us
 
 ## Want to learn more?
 
-Whether you'd like to schedule a demo, discuss a partnership, or simply find out more about DitchBridge, our team is here to help.
+Whether you'd like to schedule a demo, discuss a partnership, or simply find out more about Ditchbridge, our team is here to help.
 
 ### Demo Request
 
-Do you organise events and want to see DitchBridge in action? Write to us at **demo@ditchbridge.fr** and we'll schedule a personalised session tailored to your needs.
+Do you organise events and want to see Ditchbridge in action? Write to us at **demo@ditchbridge.fr** and we'll schedule a personalised session tailored to your needs.
 
 ### Partnerships & Research
 
