@@ -1,31 +1,42 @@
 ---
-# layout: default
 title: Mentions légales
 ---
 
-## Éditeur du site
+*Conformément aux dispositions des articles 6-III et 19 de la Loi n° 2004-575 du 21 juin 2004 pour la Confiance dans l'Économie Numérique (LCEN).*
 
-**Ditchbridge SAS**  
-Plateforme SaaS pour l'organisation événementielle
+## 1. Éditeur du site
 
-## Hébergement
+*[À COMPLÉTER — Dénomination sociale]*
+*[À COMPLÉTER — Forme juridique et capital social]*
+*[À COMPLÉTER — Siège social (adresse complète)]*
+*[À COMPLÉTER — Numéro SIREN / SIRET et ville d'immatriculation au RCS]*
+*[À COMPLÉTER — Numéro de TVA intracommunautaire]*
+contact@ditchbridge.fr
 
-Ce site est hébergé par des infrastructures cloud conformes aux réglementations européennes en vigueur.
+## 2. Hébergement du site
 
-## Propriété intellectuelle
+Ce site est hébergé sur une infrastructure cloud conforme aux réglementations européennes en vigueur.
 
-L'ensemble des contenus présents sur ce site (textes, images, logos, graphismes) sont la propriété exclusive de Ditchbridge SAS et sont protégés par les lois françaises et internationales relatives à la propriété intellectuelle. Toute reproduction, même partielle, est strictement interdite sans autorisation préalable.
+*[À COMPLÉTER — Raison sociale et coordonnées de l'hébergeur]*
 
-## Protection des données personnelles
+## 3. Propriété intellectuelle
 
-Ditchbridge SAS s'engage à protéger la vie privée de ses utilisateurs et à traiter les données personnelles collectées conformément au Règlement Général sur la Protection des Données (RGPD — Règlement UE 2016/679).
+L'ensemble des contenus présents sur ce site (textes, visuels, logos, marques, éléments graphiques et logiciels) est la propriété exclusive de la société éditrice ou de ses partenaires, sauf mention contraire, et est protégé par le droit de la propriété intellectuelle. Toute reproduction, représentation, modification ou exploitation, totale ou partielle, sans autorisation préalable écrite, est interdite.
 
-Pour toute question relative à vos données personnelles, vous pouvez nous contacter à : **contact@ditchbridge.fr**
+La dénomination Ditchbridge ainsi que les technologies et éléments logiciels associés font l'objet de démarches de protection en cours (dépôt de marque, protection du code source, enveloppe de datation), notamment auprès de l'Institut National de la Propriété Industrielle (INPI) et de l'Agence pour la Protection des Programmes (APP).
 
-## Cookies
+## 4. Données personnelles et cookies
 
-Ce site utilise uniquement des cookies techniques nécessaires à son bon fonctionnement. Aucun cookie de traçage ou publicitaire n'est déposé sans votre consentement.
+Les données personnelles collectées via ce site (notamment via le formulaire de contact) sont traitées conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés. Elles sont utilisées exclusivement pour répondre aux demandes des visiteurs et ne sont ni cédées ni transmises à des tiers sans consentement préalable.
 
-## Contact
+Pour toute question relative à vos données personnelles : **contact@ditchbridge.fr**
 
-Pour toute demande d'information : [Contactez-nous](/contact)
+Ce site peut utiliser des cookies techniques nécessaires à son bon fonctionnement. Aucun cookie de mesure d'audience ou de ciblage publicitaire ne sera déposé sans le consentement préalable du visiteur.
+
+## 5. Limitation de responsabilité
+
+La société éditrice s'efforce d'assurer l'exactitude et la mise à jour des informations diffusées sur ce site, sans garantir l'exhaustivité ou l'absence d'erreurs. Elle ne saurait être tenue responsable des dommages directs ou indirects résultant de l'accès ou de l'utilisation de ce site.
+
+## 6. Droit applicable
+
+Les présentes mentions légales sont soumises au droit français. Tout litige relatif à leur interprétation ou à leur exécution relève de la compétence des tribunaux français.

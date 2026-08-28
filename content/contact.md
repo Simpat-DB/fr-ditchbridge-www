@@ -1,27 +1,18 @@
 ---
-title: Contactez-nous
+title: Contact
 ---
 
-## Vous souhaitez en savoir plus ?
+Que vous soyez organisateur d'événements, responsable des opérations, partenaire ou investisseur souhaitant échanger avec l'équipe Ditchbridge, n'hésitez pas à nous contacter.
 
-Que vous souhaitiez planifier une démonstration, discuter d'un partenariat ou simplement en apprendre davantage sur Ditchbridge, notre équipe est là pour vous répondre.
+## Nous écrire
 
-### Demande de démonstration
+**[contact@ditchbridge.fr](mailto:contact@ditchbridge.fr)**
 
-Vous organisez des événements et souhaitez voir Ditchbridge en action ? Écrivez-nous à **demo@ditchbridge.fr** et nous programmons une session personnalisée adaptée à vos enjeux.
+Notre équipe s'engage à répondre à toute demande dans les meilleurs délais.
 
-### Partenariats & Recherche
+## Siège social
 
-Nous sommes ouverts aux collaborations avec des acteurs de la recherche, des intégrateurs et des acteurs institutionnels du secteur événementiel. Contactez-nous à **partners@ditchbridge.fr**.
+20 chemin de la Teulière
+81000 Albi
 
-### Recrutement
-
-Vous souhaitez rejoindre l'aventure ? Consultez nos [fiches de poste](/recrutment) ou envoyez-nous une candidature spontanée à **jobs@ditchbridge.fr**.
-
-### Nous écrire
-
-Pour toute autre question : **contact@ditchbridge.fr**
-
----
-
-*Notre équipe s'engage à vous répondre sous 48 heures ouvrées.*
+Ditchbridge est basée en Occitanie, au cœur d'un écosystème académique et entrepreneurial dédié à l'innovation technologique.
