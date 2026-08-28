@@ -1,19 +1,56 @@
 ---
-title: Multiple tools to coordinate your event teams
+title: The Platform
 ---
 
-## DitchBridge Supervisor
+## Our vision: bridging technology and the field
 
-DitchBridge Supervisor is the intelligent control tower designed to oversee and optimise the continuity of your operations. Through advanced data centralisation and real-time analytics, it ensures smooth, proactive and secure management of your workflows. The essential tool for staying one step ahead — anticipate bottlenecks and make the right decisions at the right time.
+Large-scale events — festivals, sports competitions, institutional gatherings — mobilise hundreds of people, vendors, and simultaneous information flows. Yet coordination still relies too often on fragmented tools, scattered communication channels, and decisions made without a shared picture of what's happening.
 
-## DitchBridge Workflow Assistant
+DitchBridge was born from this observation. Our ambition: build the reference platform for operational management of complex events — connecting decision-makers, field teams, and service providers within a unified digital ecosystem.
 
-DitchBridge Workflow Assistant is your virtual partner dedicated to automating and simplifying your day-to-day processes. By orchestrating complex tasks and guiding your teams step by step, it eliminates operational friction and significantly reduces human errors. An intelligent assistant that smooths project execution, accelerates your approvals and frees up time for your highest-value missions.
+---
 
-## DitchBridge Incident Management
+## What DitchBridge enables
 
-DitchBridge Incident Management is the solution dedicated to rapidly neutralising disruptions and protecting your services. By centralising alerts, automatic ticket escalation and crisis team coordination, it drastically reduces your mean time to resolve (MTTR). Protect your operations against unforeseen events, minimise operational impact and strengthen your organisation's resilience through comprehensive tracking and traceability.
+### 🗺️ Centralised supervision
 
-## DitchBridge Watch & Phone Application
+A single dashboard aggregates all event data streams in real time: ticketing, access control, zone status, operational indicators. Event managers have an immediate, global view — without switching between multiple tools.
 
-DitchBridge Watch & Phone Application keeps your operations management at your fingertips, wherever you are. Connected in real time to the DitchBridge ecosystem, this mobile and wearable suite instantly alerts you to critical events, lets you approve workflows with a single gesture and enables emergency intervention without opening a laptop. Combine absolute responsiveness, total mobility and operational continuity through a fluid user experience designed for field teams and management alike.
+### ⚡ Field responsiveness
+
+Alerts are detected, qualified, and escalated automatically according to configurable rules. Teams receive the right information at the right moment — on mobile or smartwatch — and can validate an action or trigger an intervention in seconds.
+
+### 🤝 Coordination without silos
+
+DitchBridge connects every stakeholder in the event: from the control-room manager to the on-site agent, including external service providers. No more information lost between organisational layers or operational teams.
+
+### 📋 Incident management
+
+Incidents are logged, assigned, and tracked through to resolution. Each one generates a complete audit trail, usable in post-event reviews to continuously improve processes.
+
+### 📱 Total accessibility
+
+The DitchBridge ecosystem covers every use case: web interface for decision-makers, mobile app for field teams, wearable integration for real-time interventions.
+
+---
+
+## Current stage: Proof of Concept
+
+DitchBridge is currently in its **Proof of Concept (POC)** phase. The technical foundations are in place, use cases have been validated with event industry experts, and the first modules are under active development.
+
+This phase allows us to:
+- Refine the real needs of event organisers
+- Validate architectural choices with our research partner
+- Gather early field feedback ahead of a pilot deployment
+
+We are open to partnerships with organisers who wish to co-build the solution and take part in the first experimental deployments.
+
+---
+
+## Built on solid scientific foundations
+
+DitchBridge draws on the work of the **Centre Génie Industriel at IMT Mines Albi** and its **RIO** research platform (*Risk management & Interoperability within Organizations*). This collaboration ensures that the decision-support algorithms embedded in the platform are grounded in proven models — not just product intuition.
+
+---
+
+*Want to learn more about our vision or explore a partnership? [Contact us](/en/contact).*

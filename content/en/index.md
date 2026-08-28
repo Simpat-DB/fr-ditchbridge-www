@@ -6,7 +6,7 @@ description: >-
 greeting: Welcome to DitchBridge
 tagline: The event platform that connects your teams and drives your operations in real time.
 navigation:
-  - title: Our Offer
+  - title: The Platform
     url: /en/product
   - title: The Company
     url: /en/company

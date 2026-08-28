@@ -1,19 +1,56 @@
 ---
-title: Plusieurs outils pour piloter la coordination de vos événements
+title: La Plateforme
 ---
 
-## DitchBridge Supervisor
+## Une vision : réconcilier technologie et terrain
 
-DitchBridge Supervisor est la tour de contrôle intelligente conçue pour superviser et optimiser la continuité de vos opérations. Grâce à une centralisation avancée des données et une analyse en temps réel, il garantit un pilotage fluide, préventif et sécurisé de vos flux de travail. L'outil indispensable pour garder un coup d'avance, anticiper les goulots d'étranglement et prendre les bonnes décisions au bon moment.
+Les grands événements — festivals, compétitions sportives, rassemblements institutionnels — mobilisent des centaines de personnes, de prestataires et de flux d'information simultanés. Pourtant, la coordination repose encore trop souvent sur des outils fragmentés, des canaux de communication disparates et des décisions prises sans vision d'ensemble.
 
-## DitchBridge Workflow Assistant
+DitchBridge est né de ce constat. Notre ambition : construire la plateforme de référence pour la gestion opérationnelle des événements complexes — en connectant décideurs, équipes terrain et prestataires au sein d'un écosystème numérique unifié.
 
-DitchBridge Workflow Assistant est votre partenaire virtuel dédié à l'automatisation et à la simplification de vos processus quotidiens. En orchestrant vos tâches complexes et en guidant vos équipes étape par étape, il élimine les frictions opérationnelles et réduit considérablement les erreurs humaines. Un assistant intelligent qui fluidifie l'exécution des projets, accélère vos validations et libère du temps pour vos missions à forte valeur ajoutée.
+---
 
-## DitchBridge Incident Management
+## Ce que DitchBridge permet de faire
 
-DitchBridge Incident Management est la solution dédiée à la neutralisation rapide des dysfonctionnements et à la protection de vos services. En centralisant les alertes, l'escalade automatique des tickets et la coordination des équipes de crise, il réduit drastiquement votre temps moyen de résolution (MTTR). Protégez votre activité face aux aléas, minimisez l'impact opérationnel et renforcez la résilience de votre organisation grâce à un suivi et une traçabilité sans faille.
+### 🗺️ Supervision centralisée
 
-## DitchBridge Watch & Phone Application
+Un tableau de bord unique agrège en temps réel l'ensemble des flux de l'événement : billetterie, contrôle d'accès, état des zones, indicateurs opérationnels. Les responsables disposent d'une vision globale et instantanée, sans jongler entre plusieurs outils.
 
-DitchBridge Watch & Phone Application garde la gestion de vos opérations à portée de main, où que vous soyez. Connectée en temps réel à l'écosystème DitchBridge, cette suite mobile et wearable vous alerte instantanément des évènements critiques, vous permet d'approuver des workflows en un geste et d'intervenir en urgence sans ouvrir un ordinateur. Alliez réactivité absolue, mobilité totale et continuité opérationnelle grâce à une expérience utilisateur fluide, conçue pour les équipes du terrain jusqu'au management.
+### ⚡ Réactivité terrain
+
+Les alertes sont détectées, qualifiées et escaladées automatiquement selon des règles paramétrables. Les équipes reçoivent les bonnes informations au bon moment — sur mobile ou montre connectée — et peuvent valider une action ou déclencher une intervention en quelques secondes.
+
+### 🤝 Coordination sans silos
+
+DitchBridge connecte tous les acteurs de l'événement : du manager en tour de contrôle à l'agent sur le terrain, en passant par les prestataires externes. Fini les pertes d'information entre les couches hiérarchiques ou les équipes métier.
+
+### 📋 Gestion des incidents
+
+Les dysfonctionnements sont tracés, assignés et suivis jusqu'à leur résolution. Chaque incident génère un historique complet, exploitable en post-événement pour améliorer les processus.
+
+### 📱 Accessibilité totale
+
+L'écosystème DitchBridge couvre l'ensemble des usages : interface web pour les décideurs, application mobile pour les équipes terrain, intégration wearable pour les interventions en temps réel.
+
+---
+
+## Stade actuel : Proof of Concept
+
+DitchBridge est aujourd'hui en phase de **Proof of Concept (POC)**. Les fondations techniques sont posées, les cas d'usage validés avec des experts du secteur événementiel, et les premiers modules sont en cours de développement.
+
+Cette phase nous permet de :
+- Affiner les besoins réels des organisateurs d'événements
+- Valider les choix d'architecture avec notre partenaire de recherche
+- Construire les premiers retours terrain avant un déploiement pilote
+
+Nous sommes ouverts à des partenariats avec des organisateurs souhaitant co-construire la solution et participer aux premières expérimentations.
+
+---
+
+## Un socle scientifique solide
+
+DitchBridge s'appuie sur les travaux du **Centre Génie Industriel d'IMT Mines Albi** et sa plateforme de recherche **RIO** (*Risk management & Interoperability within Organizations*). Cette collaboration garantit que les algorithmes décisionnels intégrés à la plateforme reposent sur des modèles éprouvés — et pas seulement sur des intuitions produit.
+
+---
+
+*Vous souhaitez en savoir plus sur notre vision ou explorer un partenariat ? [Contactez-nous](/contact).*
