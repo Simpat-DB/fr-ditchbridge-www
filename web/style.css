@@ -1,3 +1,7 @@
+/* Fontshare — Aspekta (corps) + Sul Mono (titres display) */
+@import url('https://api.fontshare.com/v2/css?f[]=aspekta@500,800&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=sul-mono@700&display=swap');
+
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
@@ -5,52 +9,60 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 /* ============================================================
-   BRAND TOKENS — remplacer ces valeurs lors de la réception
-   de la charte graphique officielle Ditchbridge
+   BRAND TOKENS — Charte graphique Ditchbridge
+   Violet #4D22A8 · Orange #ED6609 · Beige #E9E6DE · Sauge #5C6A61
    ============================================================ */
 @theme {
-    --font-sans: 'Atkinson Hyperlegible', system-ui, -apple-system, sans-serif;
+    --font-sans: 'Aspekta', system-ui, -apple-system, sans-serif;
+    --font-display: 'Sul Mono', monospace;
 
-    /* Palette principale (neutre) */
-    --color-primary: #111827;
-    --color-secondary: #4b5563;
-    --color-tertiary: #6b7280;
+    /* Palette principale */
+    --color-primary: #111111;
+    --color-secondary: #4b4b4b;
+    --color-tertiary: #6b6b6b;
     --color-surface: #ffffff;
-    --color-surface-2: #f9fafb;
-    --color-surface-3: #f3f4f6;
+    --color-surface-2: #f5f3ef;
+    --color-surface-3: #E9E6DE;
     --color-card: #ffffff;
-    --color-card-border: #e5e7eb;
-    --color-border: #e5e7eb;
-    --color-border-strong: #d1d5db;
-    --color-code-bg: #f3f4f6;
-    --color-code-text: #db2777;
-    --color-pre-bg: #f8f9fa;
-    --color-pre-text: #24292e;
+    --color-card-border: #dedad2;
+    --color-border: #dedad2;
+    --color-border-strong: #ccc8bf;
+    --color-code-bg: #E9E6DE;
+    --color-code-text: #4D22A8;
+    --color-pre-bg: #1a0d40;
+    --color-pre-text: #E9E6DE;
 
-    /* Couleur d'accentuation — à remplacer par la marque */
-    --color-accent-300: #6ee7b7;   /* BRAND: vert émeraude clair */
-    --color-accent-400: #34d399;
-    --color-accent-500: #10b981;   /* BRAND: accent principal */
-    --color-accent-600: #059669;
-    --color-accent-700: #047857;
+    /* Violet — couleur d'accentuation principale */
+    --color-accent-300: #9d7ed4;
+    --color-accent-400: #7650be;
+    --color-accent-500: #4D22A8;
+    --color-accent-600: #3d1a87;
+    --color-accent-700: #2e1266;
+
+    /* Orange — couleur secondaire */
+    --color-orange: #ED6609;
+    --color-orange-dark: #c45200;
+
+    /* Sauge — couleur neutre */
+    --color-sage: #5C6A61;
 }
 
 /* Dark mode */
 .dark {
-    --color-primary: #e0e0e0;
-    --color-secondary: #a3a3a3;
-    --color-tertiary: #737373;
-    --color-surface: #0f172a;
-    --color-surface-2: #1e293b;
-    --color-surface-3: #1e293b;
-    --color-border: #334155;
-    --color-border-strong: #475569;
-    --color-card: #1e293b;
-    --color-card-border: #334155;
-    --color-code-bg: #1e293b;
-    --color-code-text: #6ee7b7;
-    --color-pre-bg: #0f172a;
-    --color-pre-text: #e2e8f0;
+    --color-primary: #E9E6DE;
+    --color-secondary: #b0ada6;
+    --color-tertiary: #7a776f;
+    --color-surface: #0f0a1e;
+    --color-surface-2: #1a1130;
+    --color-surface-3: #241840;
+    --color-border: #3d2e6b;
+    --color-border-strong: #5a4490;
+    --color-card: #1a1130;
+    --color-card-border: #3d2e6b;
+    --color-code-bg: #1a1130;
+    --color-code-text: #9d7ed4;
+    --color-pre-bg: #0f0a1e;
+    --color-pre-text: #E9E6DE;
 }
 
 @layer base {
@@ -58,6 +70,7 @@
         @apply antialiased font-sans transition-colors duration-200;
         @apply min-h-screen bg-surface text-primary;
     }
+    h1, h2 { font-family: var(--font-display); letter-spacing: 0.02em; }
     a:hover, button:hover { @apply text-accent-500; }
     code::before, code::after { content: none !important; }
 }
@@ -76,6 +89,8 @@
     footer.site-footer .footer-col-title { @apply font-semibold text-primary mb-3; }
     footer.site-footer .footer-links { @apply flex flex-col gap-2; }
     footer.site-footer .footer-links a { @apply text-secondary hover:text-accent-500 no-underline transition-colors; }
+    footer.site-footer .footer-social { @apply flex gap-3 mt-4; }
+    footer.site-footer .footer-social-link { @apply text-tertiary hover:text-accent-500 transition-colors; }
     footer.site-footer .footer-bottom {
         @apply max-w-7xl mx-auto px-6 py-4 border-t border-border flex flex-col md:flex-row justify-between items-center text-xs text-tertiary gap-2;
     }
@@ -108,8 +123,11 @@
         @apply inline-flex items-center gap-1 px-3 py-1.5 rounded-md border border-border text-secondary text-xs font-semibold uppercase cursor-pointer bg-surface hover:bg-surface-3 transition-all no-underline ml-2;
     }
     .lang-switcher .lang-active { @apply text-accent-500; }
-.header-social { @apply inline-flex items-center gap-2 ml-2; }
-.header-social-link { @apply text-secondary hover:text-accent-500 transition-colors flex items-center; }
+
+    /* Social icons in header */
+    .header-social { @apply inline-flex items-center gap-2 ml-2; }
+    .header-social-link { @apply text-secondary hover:text-accent-500 transition-colors flex items-center; }
+
     /* Navigation - Mobile */
     .mobile-nav { @apply md:hidden flex flex-col gap-3 mt-4 pt-4 border-t border-border; }
     .mobile-nav nav { @apply flex flex-col gap-2; }
@@ -315,5 +333,5 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
     }
-
+    .no-underline { text-decoration: none !important; }
 }
