@@ -5,10 +5,11 @@ layout: default
 <!-- ── Hero Section ───────────────────────────────────────────── -->
 <section class="hero-section">
   <div class="hero-inner">
-    <span class="hero-badge">🎯 Plateforme événementielle SaaS</span>
+    <span class="hero-badge">Plateforme de pilotage événementiel</span>
     <h1 class="hero-title">
       {page.data.greeting}
     </h1>
+    <div class="hero-accent-line" aria-hidden="true"></div>
     <p class="hero-tagline">
       {page.data.tagline}
     </p>
@@ -26,17 +27,40 @@ layout: default
 <!-- ── Feature highlights ─────────────────────────────────────── -->
 <div class="features-grid">
   <div class="feature-card">
-    <div class="feature-card-icon">🗺️</div>
+    <div class="feature-icon-wrap" style="background:#4D22A8;">
+      <!-- Dashboard / vision icon -->
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <rect x="3" y="3" width="7" height="7" rx="1"/>
+        <rect x="14" y="3" width="7" height="7" rx="1"/>
+        <rect x="3" y="14" width="7" height="7" rx="1"/>
+        <rect x="14" y="14" width="7" height="7" rx="1"/>
+      </svg>
+    </div>
     <h3>Vision globale</h3>
     <p>Supervisez l'intégralité de votre événement depuis un tableau de bord unique : billetterie, accès, prestataires et flux en temps réel.</p>
   </div>
   <div class="feature-card">
-    <div class="feature-card-icon">⚡</div>
+    <div class="feature-icon-wrap" style="background:#ED6609;">
+      <!-- Lightning bolt / reactivity icon -->
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+      </svg>
+    </div>
     <h3>Réactivité terrain</h3>
     <p>Escalade automatique des alertes, validation en un geste depuis mobile ou montre connectée — intervenez instantanément, partout.</p>
   </div>
   <div class="feature-card">
-    <div class="feature-card-icon">🤝</div>
+    <div class="feature-icon-wrap" style="background:#5C6A61;">
+      <!-- Connected nodes / coordination icon -->
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="5" r="2"/>
+        <circle cx="5" cy="19" r="2"/>
+        <circle cx="19" cy="19" r="2"/>
+        <line x1="12" y1="7" x2="5" y2="17"/>
+        <line x1="12" y1="7" x2="19" y2="17"/>
+        <line x1="7" y1="19" x2="17" y2="19"/>
+      </svg>
+    </div>
     <h3>Coordination fluide</h3>
     <p>Connectez décideurs, équipes terrain et prestataires. Fini les silos : tout le monde dispose des bonnes informations au bon moment.</p>
   </div>
@@ -67,7 +91,12 @@ layout: default
   <h2>Une plateforme adossée à la recherche scientifique</h2>
   <p>Ditchbridge collabore avec le Centre Génie Industriel d'IMT Mines Albi et sa plateforme RIO pour intégrer des algorithmes décisionnels de pointe dans la gestion de vos événements.</p>
   <div class="partner-card">
-    <span class="partner-logo">🏛️</span>
+    <div class="partner-icon-wrap" aria-hidden="true">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+        <polyline points="9 22 9 12 15 12 15 22"/>
+      </svg>
+    </div>
     <div>
       <p class="partner-name">IMT Mines Albi — Projet RIO</p>
       <p class="partner-desc">Risk management &amp; Interoperability within Organization</p>
