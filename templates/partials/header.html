@@ -56,17 +56,32 @@
 </header>
 
 <script>
-// Highlight active language based on current URL
+// Language switcher — keeps current page when switching language
 (function() {
-  const path = window.location.pathname;
-  const isEn = path.includes('/en/') || path.endsWith('/en');
-  const frEl = document.getElementById('lang-fr');
-  const enEl = document.getElementById('lang-en');
+  var path = window.location.pathname;
+  var frEl = document.getElementById('lang-fr');
+  var enEl = document.getElementById('lang-en');
   if (!frEl || !enEl) return;
+
+  // Detect site base from the pre-rendered FR link (e.g. "/fr-ditchbridge-www")
+  var frBase = frEl.getAttribute('href').replace(/\/$/, '');
+
+  // Local path relative to base (e.g. "/contact/" or "/en/contact/")
+  var local = path.startsWith(frBase) ? path.slice(frBase.length) : path;
+  if (!local || local === '') local = '/';
+
+  var isEn = local.startsWith('/en/') || local === '/en';
+
   if (isEn) {
+    // Build FR equivalent: strip /en prefix
+    var frPath = local.replace(/^\/en/, '') || '/';
+    frEl.href = frBase + frPath;
     frEl.classList.remove('lang-active');
     enEl.classList.add('lang-active');
   } else {
+    // Build EN equivalent: add /en prefix
+    var enPath = '/en' + (local === '/' ? '/' : local);
+    enEl.href = frBase + enPath;
     enEl.classList.remove('lang-active');
     frEl.classList.add('lang-active');
   }
