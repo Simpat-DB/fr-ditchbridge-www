@@ -17,7 +17,7 @@ Derrière des technologies hautement complexes, nous faisons le choix de l'évid
 
 ## 4. L'esprit d'équipe
 
-Un événement ou un projet d'envergure ne se réussit jamais seul. L'ADN sportif de son fondateur. Nous nous pensons comme le prolongement de vos équipes : un partenaire disponible, à l'écoute et engagé à vos côtés, de la préparation jusqu'au bilan.
+Un événement ou un projet d'envergure ne se réussit jamais seul. L'ADN sportif de son fondateur se retrouve dans les valeurs de partage, d'engagement et de cohésion qui animent Ditchbridge. Nous nous pensons comme le prolongement de vos équipes : un partenaire disponible, à l'écoute et engagé à vos côtés, de la préparation jusqu'au bilan.
 
 ## 5. La souveraineté
 
