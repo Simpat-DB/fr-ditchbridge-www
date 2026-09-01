@@ -1,7 +1,3 @@
----
-title: Ditchbridge
----
-
 ### Bienvenue chez Ditchbridge, la plateforme SaaS qui simplifie la gestion de vos opérations.
 
 Conçu pour les entreprises, agences et organisateurs exigeants, Ditchbridge centralise tous vos besoins sur une interface unique et intuitive. De la création de la billetterie au contrôle d'accès sur place, en passant par le matchmaking des participants et le suivi budgétaire, notre outil aide a l'automatisation de vos tâches les plus chronophages.
