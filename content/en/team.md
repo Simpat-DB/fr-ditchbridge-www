@@ -1,27 +1,23 @@
 ---
-title: Our Team
+title: The Team
 ---
 
-### Simon — Field instinct at the service of an ambitious vision
+Ditchbridge brings together a founding team drawn directly from field event operations and software engineering, supported by a scientific advisory board composed of the researchers behind the technology on which the platform is built.
 
-Some entrepreneurs thrive on complex challenges — they see them as fuel. Simon is one of those builders who can bridge the gap perfectly between operational demands and technological precision.
+## The founding team
 
-Passionate, driven and with a genuine culture of action, Simon embodies a natural leadership that immediately rallies people around him. His approach stands out through a deep understanding of operational stakes and a rare ability to transform dense organisational challenges into fluid, effective and intuitive solutions. Both visionary and deeply pragmatic, he knows how to set the right dynamic, connect expertise — from software engineering to cutting-edge scientific research — and move projects forward with remarkable clarity.
+**Simon Patard — President & founder**
 
-Combining unwavering responsiveness with a strong sense of collective, Simon always moves forward with one priority: delivering concrete value and guaranteeing excellence, while never losing sight of simplicity of execution. This human and technical engine is what makes him a true catalyst for innovation.
+With ten years in the event operations of Paris Saint-Germain, followed by three years at the organising committee of the Paris 2024 Olympic and Paralympic Games, Simon Patard has led demanding and varied event deployments. It is from this direct experience — in daily contact with field constraints and the pressure of live operations — that the conviction behind Ditchbridge was born: operational teams need a tool designed for them, not adapted from another sector. He recently complemented this operational expertise with a business strategy certification from HEC, obtained in January 2026.
 
-### Charles — Technical excellence and the art of resilient architecture
+**Charles Sabourdin — Chief Technical Officer**
 
-Behind every system of impeccable reliability stands a methodical and brilliant mind. Charles is the technical backbone who transforms raw complexity into fluid, robust and stable infrastructures.
+A graduate of ESSEC and ESIEA, Charles Sabourdin is a senior software architect specialising in Java environments, application security, and the production deployment of critical systems. He leads the technical design of the platform and its transformation from research technology into a robust, secure industrial product.
 
-An indispensable expert in software engineering and the Java ecosystem, Charles is distinguished by his architecturally mature vision and surgical precision in design. Where others see technical obstacles or insurmountable load constraints, he sees equations to solve and mechanisms to optimise. Always on the lookout for best practices and passionate about high-performance technologies, he knows how to build application foundations capable of absorbing the most ambitious challenges without faltering.
+## The scientific advisory board
 
-But beyond his exceptional technical mastery, Charles brings an invaluable quality to the collective: a rare ability to bridge research, field requirements and code elegance. Calm, rigorous and deeply quality-oriented, he embodies engineering excellence and instils total confidence in his teams and partners alike.
+Ditchbridge relies on a committee of recognised researchers, originators of the platform's foundational work:
 
-### Emmanuel — Scientific rigour and the art of modelling
+**Frédérick Benaben** — Professor of information systems at IMT Mines Albi and Georgia Tech, specialist in modelling and digital tools for collaboration and decision-making in complex environments. He is the creator of the R-IO Suite research platform, at the origin of the Ditchbridge project.
 
-He is one of those minds capable of taking the complexity of the real world, untangling its threads and translating it into models of crystalline clarity. Emmanuel is the guarantor of conceptual coherence and algorithmic precision, bringing an indispensable depth of analysis to the most ambitious projects.
-
-A recognised expert in modelling and systems engineering, Emmanuel possesses the rare ability to elevate every operational challenge to the level of a perfect mathematical and logical structure. Rigorous, methodical and always anchored in scientific innovation, he knows how to bridge cutting-edge research and concrete field constraints. His vision makes it possible to anticipate the behaviour of complex systems, optimise logistical processes and transform raw volumes of data into strategic decision levers.
-
-Pragmatic despite the high technical nature of his domain, Emmanuel is distinguished by his sense of sharing and collaborative approach. He can make the most abstract concepts accessible, turning modelling into a genuine alignment tool for the entire team. Through his rigour and component intelligence, he brings an invaluable scientific value to the collective.
+**Sébastien Rebiere and Nicolas Salatge** — Research engineers at the Industrial Engineering centre of IMT Mines Albi, co-developers of the R-IO Suite platform.

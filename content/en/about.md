@@ -2,29 +2,41 @@
 title: Legal Notice
 ---
 
-## Publisher
+*In accordance with the provisions of Articles 6-III and 19 of Law No. 2004-575 of 21 June 2004 on Confidence in the Digital Economy (LCEN).*
 
-**Ditchbridge SAS**  
-SaaS platform for event management
+## 1. Publisher
 
-## Hosting
+*[TO BE COMPLETED — Company name]*
+*[TO BE COMPLETED — Legal form and share capital]*
+*[TO BE COMPLETED — Registered office (full address)]*
+*[TO BE COMPLETED — SIREN / SIRET number and city of registration]*
+*[TO BE COMPLETED — VAT number]*
+contact@ditchbridge.fr
 
-This website is hosted on cloud infrastructure compliant with applicable European regulations.
+## 2. Hosting
 
-## Intellectual Property
+This site is hosted on a cloud infrastructure compliant with applicable European regulations.
 
-All content on this site (text, images, logos, graphics) is the exclusive property of Ditchbridge SAS and is protected by French and international intellectual property laws. Any reproduction, even partial, is strictly prohibited without prior authorisation.
+*[TO BE COMPLETED — Hosting provider name and contact details]*
 
-## Personal Data Protection
+## 3. Intellectual property
 
-Ditchbridge SAS is committed to protecting user privacy and processing personal data in compliance with the General Data Protection Regulation (GDPR — EU Regulation 2016/679).
+All content on this site (texts, visuals, logos, trademarks, graphic elements and software) is the exclusive property of the publishing company or its partners, unless otherwise stated, and is protected by intellectual property law. Any reproduction, representation, modification or exploitation, in whole or in part, without prior written authorisation, is prohibited.
 
-For any questions regarding your personal data, please contact us at: **contact@ditchbridge.fr**
+The Ditchbridge name and associated technologies and software elements are subject to ongoing protection proceedings (trademark filing, source code protection, timestamping), notably with the Institut National de la Propriété Industrielle (INPI) and the Agence pour la Protection des Programmes (APP).
 
-## Cookies
+## 4. Personal data and cookies
 
-This site uses only technical cookies necessary for its proper operation. No tracking or advertising cookies are placed without your consent.
+Personal data collected through this site (notably via the contact form) is processed in accordance with the General Data Protection Regulation (GDPR) and the French Data Protection Act. It is used solely to respond to visitor requests and is neither sold nor transferred to third parties without prior consent.
 
-## Contact
+For any questions regarding your personal data: **contact@ditchbridge.fr**
 
-For any enquiry: [Contact us](/en/contact)
+This site may use technical cookies necessary for its proper functioning. No audience measurement or advertising targeting cookies will be placed without the visitor's prior consent.
+
+## 5. Limitation of liability
+
+The publishing company endeavours to ensure the accuracy and currency of the information published on this site, without guaranteeing its completeness or absence of errors. It shall not be held liable for direct or indirect damages resulting from access to or use of this site.
+
+## 6. Applicable law
+
+These legal notices are governed by French law. Any dispute relating to their interpretation or execution falls within the jurisdiction of French courts.

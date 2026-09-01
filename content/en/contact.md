@@ -1,27 +1,18 @@
 ---
-title: Contact Us
+title: Contact
 ---
 
-## Want to learn more?
+Whether you are an event organiser, operations manager, partner, or investor wishing to speak with the Ditchbridge team, do not hesitate to get in touch.
 
-Whether you'd like to schedule a demo, discuss a partnership, or simply find out more about Ditchbridge, our team is here to help.
+## Write to us
 
-### Demo Request
+**[contact@ditchbridge.fr](mailto:contact@ditchbridge.fr)**
 
-Do you organise events and want to see Ditchbridge in action? Write to us at **demo@ditchbridge.fr** and we'll schedule a personalised session tailored to your needs.
+Our team is committed to responding to every enquiry as quickly as possible.
 
-### Partnerships & Research
+## Registered office
 
-We are open to collaborations with research institutions, integrators and institutional players in the events industry. Contact us at **partners@ditchbridge.fr**.
+20 chemin de la Teulière
+81000 Albi, France
 
-### Join the Team
-
-Would you like to be part of the adventure? Browse our [job listings](/en/recrutment) or send us a spontaneous application at **jobs@ditchbridge.fr**.
-
-### Write to Us
-
-For any other enquiry: **contact@ditchbridge.fr**
-
----
-
-*Our team is committed to responding within 48 business hours.*
+Ditchbridge is based in Occitanie, at the heart of an academic and entrepreneurial ecosystem dedicated to technological innovation.
