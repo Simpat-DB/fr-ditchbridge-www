@@ -2,8 +2,8 @@
   <div class="header-inner">
     <!-- Logo -->
     <a href="{site.url.relative}" class="header-logo" aria-label="Ditchbridge — accueil">
-  <img src="{site.url.resolve('/images/logo_ditchbridge.png')}" alt="Ditchbridge" height="28" style="height:28px;width:auto;display:block;">
-</a>
+      <img src="{site.url.resolve('/images/logo_ditchbridge.png')}" alt="Ditchbridge" height="28" style="height:28px;width:auto;display:block;">
+    </a>
 
     <!-- Mobile Menu Button -->
     <button id="mobile-menu-button" class="nav-item" aria-label="Menu">
@@ -18,6 +18,12 @@
         {#for item in site.data.navigation}
         <a href="{site.url.resolve(item.url)}" class="nav-item">
           {item.title}
+        </a>
+        {/for}
+        {#for social in site.data.social??}
+        <a href="{social.link}" class="nav-social" target="_blank" rel="noopener noreferrer" aria-label="{social.name}" title="{social.name}">
+          <span class="icon icon-{social.icon}"></span>
+          {#if device == 'mobile'}<span id="theme-text">{social.name}</span>{/if}
         </a>
         {/for}
       </nav>
@@ -56,34 +62,35 @@
 </header>
 
 <script>
-// Language switcher — keeps current page when switching language
+// Language switcher — contextual, keeps current page when switching
 (function() {
-  var path = window.location.pathname;
   var frEl = document.getElementById('lang-fr');
   var enEl = document.getElementById('lang-en');
   if (!frEl || !enEl) return;
 
-  // Detect site base from the pre-rendered FR link (e.g. "/fr-ditchbridge-www")
-  var frBase = frEl.getAttribute('href').replace(/\/$/, '');
+  var path = window.location.pathname;
+
+  // Detect base path from the pre-rendered FR home link (e.g. "/fr-ditchbridge-www")
+  var frHomeHref = frEl.href; // fully resolved URL
+  var base = new URL(frHomeHref).pathname.replace(/\/$/, ''); // e.g. "/fr-ditchbridge-www"
 
   // Local path relative to base (e.g. "/contact/" or "/en/contact/")
-  var local = path.startsWith(frBase) ? path.slice(frBase.length) : path;
-  if (!local || local === '') local = '/';
+  var local = path.slice(base.length) || '/';
 
   var isEn = local.startsWith('/en/') || local === '/en';
 
   if (isEn) {
-    // Build FR equivalent: strip /en prefix
-    var frPath = local.replace(/^\/en/, '') || '/';
-    frEl.href = frBase + frPath;
+    // Build FR path: remove /en prefix
+    var frLocal = local.replace(/^\/en\//, '/').replace(/^\/en$/, '/') || '/';
+    frEl.href = base + frLocal;
     frEl.classList.remove('lang-active');
     enEl.classList.add('lang-active');
   } else {
-    // Build EN equivalent: add /en prefix
-    var enPath = '/en' + (local === '/' ? '/' : local);
-    enEl.href = frBase + enPath;
-    enEl.classList.remove('lang-active');
+    // Build EN path: insert /en after base
+    var enLocal = '/en' + local;
+    enEl.href = base + enLocal;
     frEl.classList.add('lang-active');
+    enEl.classList.remove('lang-active');
   }
 })();
 </script>
