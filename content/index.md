@@ -2,9 +2,9 @@
 layout: landing
 title: Ditchbridge
 description: >-
-  Ditchbridge — La plateforme SaaS qui simplifie l'organisation de vos événements de A à Z.
+  Ditchbridge — De la donnée à l'action : la plateforme de pilotage opérationnel pour les environnements complexes.
 greeting: Bienvenue sur Ditchbridge
-tagline: La plateforme événementielle qui connecte vos équipes et pilote vos opérations en temps réel.
+tagline: "De la donnée à l'action : la plateforme de pilotage opérationnel pour les environnements complexes."
 navigation:
   - title: La plateforme
     url: /product

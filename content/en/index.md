@@ -2,9 +2,9 @@
 layout: landing
 title: Ditchbridge
 description: >-
-  Ditchbridge — The SaaS platform that simplifies your event management from A to Z.
+  Ditchbridge — From data to action: the operational command platform for complex environments.
 greeting: Welcome to Ditchbridge
-tagline: The event platform that connects your teams and drives your operations in real time.
+tagline: "From data to action: the operational command platform for complex environments."
 navigation:
   - title: The Platform
     url: /en/product
