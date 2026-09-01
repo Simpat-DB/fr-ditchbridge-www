@@ -3,7 +3,7 @@ layout: landing
 title: Ditchbridge
 description: >-
   Ditchbridge — De la donnée à l'action : la plateforme de pilotage opérationnel pour les environnements complexes.
-greeting: Bienvenue sur Ditchbridge
+greeting: Bienvenue chez Ditchbridge
 tagline: "De la donnée à l'action : la plateforme de pilotage opérationnel pour les environnements complexes."
 navigation:
   - title: La plateforme
