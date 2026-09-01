@@ -34,22 +34,9 @@ L'écosystème Ditchbridge couvre l'ensemble des usages : interface web pour les
 
 ---
 
-## Stade actuel : Proof of Concept
-
-Ditchbridge est aujourd'hui en phase de **Proof of Concept (POC)**. Les fondations techniques sont posées, les cas d'usage validés avec des experts du secteur événementiel, et les premiers modules sont en cours de développement.
-
-Cette phase nous permet de :
-- Affiner les besoins réels des organisateurs d'événements
-- Valider les choix d'architecture avec notre partenaire de recherche
-- Construire les premiers retours terrain avant un déploiement pilote
-
-Nous sommes ouverts à des partenariats avec des organisateurs souhaitant co-construire la solution et participer aux premières expérimentations.
-
----
-
 ## Un socle scientifique solide
 
-Ditchbridge s'appuie sur les travaux du **Centre Génie Industriel d'IMT Mines Albi** et sa plateforme de recherche **RIO** (*Risk management & Interoperability within Organizations*). Cette collaboration garantit que les algorithmes décisionnels intégrés à la plateforme reposent sur des modèles éprouvés — et pas seulement sur des intuitions produit.
+Ditchbridge s'appuie sur les travaux du **Centre Génie Industriel d'IMT Mines Albi**. Cette collaboration garantit que les algorithmes décisionnels intégrés à la plateforme reposent sur des modèles éprouvés — et pas seulement sur des intuitions produit.
 
 ---
 
