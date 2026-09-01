@@ -1,5 +1,5 @@
 ---
-title: La Société
+title: La société
 ---
 
 Ditchbridge est née d'un constat de terrain : après quinze années passées à organiser de grands événements sportifs dans des environnements complexes et fragmentés, son fondateur a mesuré à quel point les équipes opérationnelles manquaient d'un outil réellement pensé pour leur métier — **un outil capable de les accompagner dans l'instant**, et pas simplement à documenter ce qui s'est déjà produit.
