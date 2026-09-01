@@ -1,15 +1,15 @@
 ---
 # layout: default
-title: Notre Equipe
+title: Notre équipe
 ---
 
 ### Simon : l’instinct du terrain au service d’une vision ambitieuse
 
 Il y a des entrepreneurs que les défis complexes n'effraient pas, bien au contraire : ils les stimulent. Simon fait partie de cette catégorie de bâtisseurs capables d'établir un pont parfait entre les exigences du terrain et la précision technologique.
 
-Passionné, déterminé et doté d'une véritable culture de l'action, Simon incarne un leadership naturel qui fédère immédiatement autour de lui. Son approche se distingue par une compréhension fine des enjeux opérationnels et une capacité rare à transformer des problématiques d'organisation denses en solutions fluides, efficaces et intuitives. À la fois visionnaire et profondément pragmatique, il sait impulser la bonne dynamique, connecter les expertises — de l'ingénierie logicielle jusqu'à la recherche scientifique de pointe — et faire avancer ses projets avec une clarté remarquable.
+Passionné, déterminé et doté d'une véritable culture de l'action, Simon incarne un leadership naturel qui fédère immédiatement autour de lui. Son approche se distingue par une compréhension fine des enjeux opérationnels et une capacité rare à transformer des problématiques d'organisation denses en solutions fluides, efficaces et intuitives. À la fois visionnaire et profondément pragmatique, il sait impulser la bonne dynamique, connecter les expertises — de l'ingénierie logicielle jusqu'à la recherche scientifique de pointe — et faire avancer ses projets avec clarté.
 
-Alliant une réactivité à toute épreuve à un sens aigu du collectif, Simon avance toujours avec une priorité : apporter de la valeur concrète et garantir l'excellence, sans jamais perdre de vue la simplicité d'exécution. C'est ce moteur humain et technique qui fait de lui un véritable catalyseur d'innovation.
+Alliant réactivité et sens aigu du collectif, Simon avance toujours avec une priorité : apporter de la valeur concrète et garantir l'excellence, sans jamais perdre de vue la simplicité d'exécution. C'est ce moteur humain et technique qui fait de lui un véritable catalyseur d'innovation.
 
 ### Charles : l’excellence technique et l’art de l’architecture résiliente
 
