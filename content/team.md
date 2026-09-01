@@ -3,7 +3,7 @@
 title: Notre équipe
 ---
 
-### Simon : l’instinct du terrain au service d’une vision ambitieuse
+![Simon Patard](/images/photo SPA.jpg) ### Simon : l’instinct du terrain au service d’une vision ambitieuse
 
 Il y a des entrepreneurs que les défis complexes n'effraient pas, bien au contraire : ils les stimulent. Simon fait partie de cette catégorie de bâtisseurs capables d'établir un pont parfait entre les exigences du terrain et la précision technologique.
 
@@ -11,7 +11,7 @@ Passionné, déterminé et doté d'une véritable culture de l'action, Simon inc
 
 Alliant réactivité et sens aigu du collectif, Simon avance toujours avec une priorité : apporter de la valeur concrète et garantir l'excellence, sans jamais perdre de vue la simplicité d'exécution. C'est ce moteur humain et technique qui fait de lui un véritable catalyseur d'innovation.
 
-### Charles : l’excellence technique et l’art de l’architecture résiliente
+![Charles Sabourdin](/images/Charles Sabourdin.jpg)### Charles : l’excellence technique et l’art de l’architecture résiliente
 
 Derrière chaque système d'une fiabilité irréprochable se cache un esprit méthodique et brillant. Charles est la cheville ouvrière technique qui transforme la complexité brute en infrastructures fluides, robustes et d'une stabilité sans faille.
 
