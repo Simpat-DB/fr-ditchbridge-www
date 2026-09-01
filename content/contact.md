@@ -2,7 +2,7 @@
 title: Contact
 ---
 
-Que vous soyez organisateur d'événements, responsable des opérations, partenaire ou investisseur souhaitant échanger avec l'équipe Ditchbridge, n'hésitez pas à nous contacter.
+Que vous soyez organisateur d'événements, responsable des opérations, partenaire, prestataire technique, investisseur  ou tout simplement curieux, n'hésitez pas à contacter l'équipe Ditchbridge :
 
 ## Nous écrire
 
