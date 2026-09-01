@@ -6,18 +6,18 @@ title: Mentions légales
 
 ## 1. Éditeur du site
 
-*[À COMPLÉTER — Dénomination sociale]*
-*[À COMPLÉTER — Forme juridique et capital social]*
-*[À COMPLÉTER — Siège social (adresse complète)]*
-*[À COMPLÉTER — Numéro SIREN / SIRET et ville d'immatriculation au RCS]*
-*[À COMPLÉTER — Numéro de TVA intracommunautaire]*
+Ditchbridge
+SAS au capital social de 20 000,00€ 
+Siège social 20 chemin de la Teulière 81000 ALBI
+Numéro SIRET : 10330137000013, immatriculée au RCS d'Albi
+Numéro de TVA intracommunautaire : FR83103301370
 contact@ditchbridge.fr
 
 ## 2. Hébergement du site
 
 Ce site est hébergé sur une infrastructure cloud conforme aux réglementations européennes en vigueur.
 
-*[À COMPLÉTER — Raison sociale et coordonnées de l'hébergeur]*
+Hébergeur : 
 
 ## 3. Propriété intellectuelle
 
