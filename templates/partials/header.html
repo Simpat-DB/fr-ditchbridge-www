@@ -28,12 +28,18 @@
         {/for}
       </nav>
 
-      <!-- Language Switcher -->
-      <span class="lang-switcher">
-        <a id="lang-fr" href="{site.url.resolve('/')}" class="lang-active" title="Version française">FR</a>
-        <span style="opacity:0.4;">/</span>
-        <a id="lang-en" href="{site.url.resolve('/en/')}" title="English version">EN</a>
-      </span>
+      <!-- Language Switcher — single toggle button -->
+      <button
+        id="lang-switcher"
+        class="lang-switcher"
+        aria-label="Changer de langue / Switch language"
+        title="Changer de langue"
+        data-fr-root="{site.url.resolve('/')}"
+        data-en-root="{site.url.resolve('/en/')}">
+        <span id="lang-fr">FR</span>
+        <span class="lang-sep" aria-hidden="true">/</span>
+        <span id="lang-en">EN</span>
+      </button>
 
       <!-- Theme Toggle -->
       <button class="nav-item theme-toggle" aria-label="Toggle theme">
@@ -62,35 +68,44 @@
 </header>
 
 <script>
-// Language switcher — contextual, keeps current page when switching
 (function() {
+  var btn = document.getElementById('lang-switcher');
   var frEl = document.getElementById('lang-fr');
   var enEl = document.getElementById('lang-en');
-  if (!frEl || !enEl) return;
+  if (!btn || !frEl || !enEl) return;
 
   var path = window.location.pathname;
 
-  // Detect base path from the pre-rendered FR home link (e.g. "/fr-ditchbridge-www")
-  var frHomeHref = frEl.href; // fully resolved URL
-  var base = new URL(frHomeHref).pathname.replace(/\/$/, ''); // e.g. "/fr-ditchbridge-www"
+  // Base path from the data attribute rendered by Qute (e.g. "/fr-ditchbridge-www")
+  var frRoot = btn.getAttribute('data-fr-root'); // e.g. "/fr-ditchbridge-www/"
+  var base = frRoot.replace(/\/$/, '');           // e.g. "/fr-ditchbridge-www"
 
-  // Local path relative to base (e.g. "/contact/" or "/en/contact/")
+  // Local path relative to base
   var local = path.slice(base.length) || '/';
 
   var isEn = local.startsWith('/en/') || local === '/en';
 
+  // Highlight current language
   if (isEn) {
-    // Build FR path: remove /en prefix
-    var frLocal = local.replace(/^\/en\//, '/').replace(/^\/en$/, '/') || '/';
-    frEl.href = base + frLocal;
     frEl.classList.remove('lang-active');
     enEl.classList.add('lang-active');
   } else {
-    // Build EN path: insert /en after base
-    var enLocal = '/en' + local;
-    enEl.href = base + enLocal;
     frEl.classList.add('lang-active');
     enEl.classList.remove('lang-active');
   }
+
+  // On click: navigate to the same page in the other language
+  btn.addEventListener('click', function() {
+    var target;
+    if (isEn) {
+      // Go to FR equivalent
+      var frLocal = local.replace(/^\/en\//, '/').replace(/^\/en$/, '/') || '/';
+      target = base + frLocal;
+    } else {
+      // Go to EN equivalent
+      target = base + '/en' + local;
+    }
+    window.location.href = target;
+  });
 })();
 </script>
