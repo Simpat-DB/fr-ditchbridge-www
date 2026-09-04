@@ -5,11 +5,10 @@ layout: default
 <!-- ── Hero Section ───────────────────────────────────────────── -->
 <section class="hero-section">
   <div class="hero-inner">
-    <span class="hero-badge">Plateforme de pilotage opérationnel</span>
+    <span class="hero-badge">🎯 Plateforme événementielle SaaS</span>
     <h1 class="hero-title">
       {page.data.greeting}
     </h1>
-    <div class="hero-accent-line" aria-hidden="true"></div>
     <p class="hero-tagline">
       {page.data.tagline}
     </p>
@@ -22,199 +21,100 @@ layout: default
       </a>
     </div>
   </div>
+  <!-- Arch décorative hero -->
+  <div style="position:absolute;right:2rem;bottom:-1.5rem;width:140px;height:140px;opacity:0.12;pointer-events:none;z-index:0;">
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="140" height="140">
+      <rect width="100" height="100" rx="4" fill="#ED6609"/>
+      <ellipse cx="50" cy="100" rx="38" ry="50" fill="var(--color-surface,#f5f4f0)"/>
+    </svg>
+  </div>
 </section>
 
-<!-- ── Feature highlights (pictogrammes officiels) ────────────── -->
+<!-- ── Feature highlights ─────────────────────────────────────── -->
 <div class="features-grid">
-
-  <!-- Vision globale — œil (sage) -->
   <div class="feature-card">
-    <div class="feature-icon-wrap" style="background:#5C6A61;">
-      <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <!-- Two overlapping eyes / surveillance icon matching brand -->
-        <ellipse cx="9" cy="8" rx="8" ry="8" fill="#E9E6DE" opacity="0.9"/>
-        <ellipse cx="17" cy="14" rx="8" ry="8" fill="#E9E6DE"/>
-        <circle cx="9" cy="8" r="3.5" fill="#5C6A61"/>
-        <circle cx="17" cy="14" r="3.5" fill="#5C6A61"/>
-      </svg>
-    </div>
+    <div class="feature-card-icon">🗺️</div>
     <h3>Vision globale</h3>
-    <p>Un tableau de bord unique centralise toutes vos données opérationnelles : flux, accès, équipes et alertes — en temps réel.</p>
+    <p>Supervisez l'intégralité de votre événement depuis un tableau de bord unique : billetterie, accès, prestataires et flux en temps réel.</p>
   </div>
-
-  <!-- Réactivité terrain — alerte (orange) -->
   <div class="feature-card">
-    <div class="feature-icon-wrap" style="background:#ED6609;">
-      <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <polygon points="13,1 25,23 1,23" fill="#E9E6DE"/>
-        <rect x="12" y="9" width="2" height="7" rx="1" fill="#ED6609"/>
-        <circle cx="13" cy="19.5" r="1.2" fill="#ED6609"/>
-      </svg>
-    </div>
+    <div class="feature-card-icon">⚡</div>
     <h3>Réactivité terrain</h3>
-    <p>Détection précoce des signaux d'alerte, escalade automatique et plan d'action raisonné — avant que la situation se dégrade.</p>
+    <p>Escalade automatique des alertes, validation en un geste depuis mobile ou montre connectée — intervenez instantanément, partout.</p>
   </div>
-
-  <!-- Coordination fluide — équipes (violet) -->
   <div class="feature-card">
-    <div class="feature-icon-wrap" style="background:#4D22A8;">
-      <svg width="28" height="22" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <!-- 3 silhouettes matching the brand "people" icon -->
-        <circle cx="7" cy="6" r="4" fill="#E9E6DE"/>
-        <path d="M0 20 C0 14 14 14 14 20" fill="#E9E6DE"/>
-        <circle cx="21" cy="6" r="4" fill="#E9E6DE" opacity="0.7"/>
-        <path d="M14 20 C14 14 28 14 28 20" fill="#E9E6DE" opacity="0.7"/>
-        <circle cx="14" cy="4" r="3" fill="#E9E6DE"/>
-      </svg>
-    </div>
+    <div class="feature-card-icon">🤝</div>
     <h3>Coordination fluide</h3>
-    <p>Chaque intervenant reçoit sa mission en temps réel, l'exécute et confirme. Une chaîne continue de la décision à l'action.</p>
-  </div>
-
-</div>
-
-
-<!-- ── Comment ça marche ─────────────────────────────────────── -->
-<div class="steps-section">
-  <p class="steps-eyebrow">Comment ça marche</p>
-  <h2 class="steps-title">De la donnée brute à l'action coordonnée</h2>
-  <div class="steps-grid">
-
-    <div class="step-block step-block--orange">
-      <div class="step-arch" aria-hidden="true">
-        <svg viewBox="0 0 60 60" width="44" height="44" fill="none">
-          <rect width="60" height="60" fill="rgba(255,255,255,0.12)"/>
-          <rect x="10" y="10" width="40" height="40" fill="rgba(255,255,255,0.15)"/>
-          <path d="M16 50 L16 30 Q16 16 30 16 Q44 16 44 30 L44 50 Z" fill="rgba(255,255,255,0.12)"/>
-        </svg>
-      </div>
-      <span class="step-number">01</span>
-      <h3 class="step-heading">Collecter</h3>
-      <p class="step-desc">Toutes vos données opérationnelles centralisées en temps réel — flux, accès, équipes, alertes.</p>
-    </div>
-
-    <div class="step-block step-block--violet">
-      <div class="step-arch" aria-hidden="true">
-        <svg viewBox="0 0 60 60" width="44" height="44" fill="none">
-          <rect width="60" height="60" fill="rgba(255,255,255,0.1)"/>
-          <rect x="10" y="10" width="40" height="40" fill="rgba(255,255,255,0.12)"/>
-          <path d="M16 50 L16 30 Q16 16 30 16 Q44 16 44 30 L44 50 Z" fill="rgba(255,255,255,0.1)"/>
-        </svg>
-      </div>
-      <span class="step-number">02</span>
-      <h3 class="step-heading">Analyser</h3>
-      <p class="step-desc">Détection des signaux d'alerte, priorisation automatique, vision d'ensemble instantanée.</p>
-    </div>
-
-    <div class="step-block step-block--sage">
-      <div class="step-arch" aria-hidden="true">
-        <svg viewBox="0 0 60 60" width="44" height="44" fill="none">
-          <rect width="60" height="60" fill="rgba(255,255,255,0.1)"/>
-          <rect x="10" y="10" width="40" height="40" fill="rgba(255,255,255,0.12)"/>
-          <path d="M16 50 L16 30 Q16 16 30 16 Q44 16 44 30 L44 50 Z" fill="rgba(255,255,255,0.1)"/>
-        </svg>
-      </div>
-      <span class="step-number">03</span>
-      <h3 class="step-heading">Agir</h3>
-      <p class="step-desc">Chaque intervenant reçoit sa mission en temps réel et confirme l'exécution dans la boucle.</p>
-    </div>
-
+    <p>Connectez décideurs, équipes terrain et prestataires. Fini les silos : tout le monde dispose des bonnes informations au bon moment.</p>
   </div>
 </div>
 
-<!-- ── Le constat — 4 tuiles problème (style présentation) ───── -->
-<div class="constat-section">
-  <p class="constat-eyebrow">Le constat</p>
-  <h2 class="constat-title">Les opérations complexes, c'est beaucoup de coordination</h2>
-
-  <div class="constat-grid">
-
-    <!-- Multiples acteurs -->
-    <div class="constat-tile">
-      <div class="constat-picto" style="background:#4D22A8;">
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <circle cx="9" cy="9" r="5" fill="#E9E6DE"/>
-          <path d="M1 26 C1 18 17 18 17 26" fill="#E9E6DE"/>
-          <circle cx="23" cy="9" r="5" fill="#E9E6DE" opacity="0.6"/>
-          <path d="M15 26 C15 18 31 18 31 26" fill="#E9E6DE" opacity="0.6"/>
-        </svg>
-      </div>
-      <div>
-        <p class="constat-label">De multiples acteurs</p>
-        <p class="constat-desc">Sécurité, technique, secours, logistique : chacun a ses outils et ses informations.</p>
-      </div>
-    </div>
-
-    <!-- Informations dispersées -->
-    <div class="constat-tile">
-      <div class="constat-picto" style="background:#5C6A61;">
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <!-- Bidirectional arrows -->
-          <polygon points="20,8 32,16 20,24" fill="#E9E6DE"/>
-          <rect x="4" y="14" width="20" height="4" fill="#E9E6DE"/>
-          <polygon points="12,8 0,16 12,24" fill="#E9E6DE" opacity="0.5"/>
-        </svg>
-      </div>
-      <div>
-        <p class="constat-label">Informations dispersées</p>
-        <p class="constat-desc">Les données sont éparpillées entre services. Personne n'a la vision d'ensemble en temps réel.</p>
-      </div>
-    </div>
-
-    <!-- Coordination artisanale -->
-    <div class="constat-tile">
-      <div class="constat-picto" style="background:#1a1a1a;">
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <!-- Dots scattered = fragmented info -->
-          <circle cx="8" cy="8" r="2.5" fill="#E9E6DE"/>
-          <circle cx="20" cy="6" r="2" fill="#E9E6DE" opacity="0.7"/>
-          <circle cx="26" cy="14" r="2.5" fill="#E9E6DE"/>
-          <circle cx="5" cy="20" r="2" fill="#E9E6DE" opacity="0.6"/>
-          <circle cx="16" cy="22" r="2.5" fill="#E9E6DE"/>
-          <circle cx="26" cy="24" r="2" fill="#E9E6DE" opacity="0.5"/>
-          <circle cx="12" cy="14" r="2" fill="#E9E6DE" opacity="0.8"/>
-        </svg>
-      </div>
-      <div>
-        <p class="constat-label">Coordination artisanale</p>
-        <p class="constat-desc">Radio, téléphone, messages : l'information se perd, les décisions prennent du temps.</p>
-      </div>
-    </div>
-
-    <!-- Incidents subis -->
-    <div class="constat-tile">
-      <div class="constat-picto" style="background:#ED6609;">
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <polygon points="16,2 30,28 2,28" fill="#E9E6DE"/>
-          <rect x="14.5" y="11" width="3" height="9" rx="1.5" fill="#ED6609"/>
-          <circle cx="16" cy="23.5" r="1.8" fill="#ED6609"/>
-        </svg>
-      </div>
-      <div>
-        <p class="constat-label">Incidents subis</p>
-        <p class="constat-desc">Affluence, panne, accès bloqué : on réagit dans l'urgence plutôt que d'anticiper.</p>
-      </div>
-    </div>
-
+<!-- ── Banderole sombre (brand) ──────────────────────────────── -->
+<div class="dark-band">
+  <!-- Arch décorative gauche -->
+  <div class="brand-watermark" style="left:-2rem;top:-2rem;width:120px;height:120px;opacity:0.08;">
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="120" height="120">
+      <rect width="100" height="100" rx="4" fill="#ED6609"/>
+      <ellipse cx="50" cy="100" rx="38" ry="50" fill="#1a1a1a"/>
+    </svg>
+  </div>
+  <p class="dark-band__claim">Une plateforme construite par des opérationnels, pour des opérationnels.</p>
+  <p class="dark-band__sub">Zéro compromis entre la fluidité du terrain et la rigueur de la direction.</p>
+  <!-- Monogramme DB filigrane -->
+  <div class="brand-watermark" style="right:1rem;bottom:-1rem;width:100px;height:100px;opacity:0.06;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+      <path d="M10 10 L36 10 Q46 10 46 24 Q46 38 36 38 L10 38 Z" fill="#E9E6DE"/>
+      <rect x="16" y="16" width="22" height="26" rx="11" fill="#1a1a1a"/>
+      <path d="M54 10 L80 10 Q90 10 90 24 Q90 38 80 38 L54 38 Z" fill="#E9E6DE"/>
+      <rect x="60" y="16" width="22" height="26" rx="11" fill="#1a1a1a"/>
+      <rect x="8" y="54" width="38" height="38" fill="#E9E6DE" rx="1"/>
+      <path d="M54 54 L80 54 Q90 54 90 71 Q90 88 80 88 L54 88 Z" fill="#E9E6DE"/>
+      <rect x="60" y="60" width="22" height="22" rx="11" fill="#1a1a1a"/>
+    </svg>
   </div>
 </div>
 
-<!-- ── Contenu Markdown ───────────────────────────────────────── -->
+<!-- ── Contenu Markdown (les 3 sections de l'index) ──────────── -->
 <section class="max-w-7xl mx-auto px-6 py-4 prose dark:prose-invert prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 max-w-none">
   {#insert /}
 </section>
 
-<!-- ── CTA avec arche décorative ─────────────────────────────── -->
+<!-- ── CTA ────────────────────────────────────────────────────── -->
 <div class="max-w-7xl mx-auto px-6">
   <div class="cta-section">
-
-    <h2>Vous souhaitez en savoir plus ou collaborer ?</h2>
-    <p>Ditchbridge est à l'écoute des organisateurs, prestaraires techniques, financeurs, gestionnaires d'environnements complexes pour tout projet de collaboration.</p>
+    <!-- Filigrane CTA -->
+  <div class="brand-watermark" style="right:2rem;bottom:0;width:140px;height:140px;opacity:0.07;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="140" height="140">
+      <path d="M10 10 L36 10 Q46 10 46 24 Q46 38 36 38 L10 38 Z" fill="white"/>
+      <rect x="16" y="16" width="22" height="26" rx="11" fill="#ED6609"/>
+      <path d="M54 10 L80 10 Q90 10 90 24 Q90 38 80 38 L54 38 Z" fill="white"/>
+      <rect x="60" y="16" width="22" height="26" rx="11" fill="#ED6609"/>
+      <rect x="8" y="54" width="38" height="38" fill="white" rx="1"/>
+      <path d="M54 54 L80 54 Q90 54 90 71 Q90 88 80 88 L54 88 Z" fill="white"/>
+      <rect x="60" y="60" width="22" height="22" rx="11" fill="#ED6609"/>
+    </svg>
+  </div>
+  <h2>Vous souhaitez en savoir plus ou collaborer ?</h2>
+    <p>Ditchbridge est en phase POC et recherche des partenaires, financeurs et organisateurs d'événements pour co-construire la solution.</p>
     <div class="flex gap-4 justify-center flex-wrap">
       <a href="mailto:contact@ditchbridge.fr" class="btn-white">Prendre contact</a>
       <a href="{site.url.resolve('/product')}" style="color:white;text-decoration:none;border:1px solid rgba(255,255,255,0.5);padding:0.75rem 1.5rem;border-radius:0.5rem;font-weight:600;font-size:0.875rem;display:inline-flex;align-items:center;gap:0.5rem;">
         Découvrir la plateforme
       </a>
+    </div>
+  </div>
+</div>
+
+<!-- ── Partenaire de recherche ────────────────────────────────── -->
+<div class="partner-section">
+  <p style="font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:var(--color-tertiary);margin-bottom:1rem;">Partenaire de recherche</p>
+  <h2>Une plateforme adossée à la recherche scientifique</h2>
+  <p>Ditchbridge collabore avec le Centre Génie Industriel d'IMT Mines Albi et sa plateforme RIO pour intégrer des algorithmes décisionnels de pointe dans la gestion de vos événements.</p>
+  <div class="partner-card">
+    <span class="partner-logo">🏛️</span>
+    <div>
+      <p class="partner-name">IMT Mines Albi — Projet RIO</p>
+      <p class="partner-desc">Risk management &amp; Interoperability within Organization</p>
     </div>
   </div>
 </div>

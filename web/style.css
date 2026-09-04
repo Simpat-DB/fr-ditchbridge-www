@@ -35,7 +35,7 @@
     /* Violet — couleur d'accentuation principale */
     --color-accent-300: #9d7ed4;
     --color-accent-400: #7650be;
-    --color-accent-500: #4D22A8;
+    --color-accent-500: #4D22A8;   /* BRAND: violet principal */
     --color-accent-600: #3d1a87;
     --color-accent-700: #2e1266;
 
@@ -326,6 +326,117 @@
     .icon-github { --svg: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22currentColor%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20stroke%3D%22none%22%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%3Cpath%20d%3D%22M9%2019c-4.3%201.4%20-4.3%20-2.5%20-6%20-3m12%205v-3.5c0%20-1%20.1%20-1.4%20-.5%20-2c2.8%20-.3%205.5%20-1.4%205.5%20-6a4.6%204.6%200%200%200%20-1.3%20-3.2a4.2%204.2%200%200%200%20-.1%20-3.2s-1.1%20-.3%20-3.5%201.3a12.3%2012.3%200%200%200%20-6.2%200c-2.4%20-1.6%20-3.5%20-1.3%20-3.5%20-1.3a4.2%204.2%200%200%200%20-.1%203.2a4.6%204.6%200%200%200%20-1.3%203.2c0%204.6%202.7%205.7%205.5%206c-.6%20.6%20-.6%201.2%20-.5%202v3.5%22%20%2F%3E%3C%2Fsvg%3E"); }
 }
 
+    /* ── Brand design — éléments graphiques ─────────────────── */
+
+    /* H2 : accent orange sous le titre (remplace le border violet) */
+    .site-main .prose h2 {
+        position: relative !important;
+        padding-bottom: 0.55rem !important;
+        border: none !important;
+    }
+    .site-main .prose h2::after {
+        content: '' !important;
+        position: absolute !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        width: 2.5rem !important;
+        height: 3px !important;
+        background: #ED6609 !important;
+        border-radius: 2px !important;
+    }
+
+    /* Brand section : fond coloré + texture grain */
+    .brand-section {
+        position: relative;
+        overflow: hidden;
+    }
+    .brand-section::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
+        opacity: 0.18;
+        mix-blend-mode: overlay;
+        pointer-events: none;
+        z-index: 0;
+    }
+    .brand-section > * { position: relative; z-index: 1; }
+    .brand-section--orange { background-color: #ED6609; color: white; }
+    .brand-section--violet { background-color: #4D22A8; color: white; }
+    .brand-section--sage   { background-color: #5C6A61; color: white; }
+    .brand-section--dark   { background-color: #1a1a1a; color: #E9E6DE; }
+    .brand-section--light  { background-color: #E9E6DE; }
+
+    /* Arch SVG décorative inline */
+    .arch-deco-wrap {
+        position: absolute;
+        pointer-events: none;
+        opacity: 0.12;
+        z-index: 0;
+    }
+
+    /* Filigrane monogramme DB */
+    .brand-watermark {
+        position: absolute;
+        pointer-events: none;
+        z-index: 0;
+    }
+
+    /* Band chiffre-clé / constat */
+    .kpi-band {
+        @apply py-16 px-6 max-w-7xl mx-auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        text-align: center;
+    }
+    .kpi-item-value {
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: #ED6609;
+        line-height: 1;
+        margin-bottom: 0.5rem;
+    }
+    .kpi-item-label {
+        font-size: 0.875rem;
+        opacity: 0.8;
+    }
+
+    /* Banderole sombre entre features et contenu */
+    .dark-band {
+        background: #1a1a1a;
+        color: #E9E6DE;
+        padding: 3rem 1.5rem;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .dark-band::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.35'/%3E%3C/svg%3E");
+        opacity: 0.2;
+        mix-blend-mode: overlay;
+        pointer-events: none;
+        z-index: 0;
+    }
+    .dark-band > * { position: relative; z-index: 1; }
+    .dark-band__claim {
+        font-size: 1.4rem;
+        font-weight: 700;
+        max-width: 700px;
+        margin: 0 auto 1rem;
+        line-height: 1.4;
+    }
+    .dark-band__sub {
+        font-size: 0.95rem;
+        opacity: 0.65;
+        max-width: 520px;
+        margin: 0 auto;
+    }
+
+
 @layer utilities {
     .line-clamp-2 {
         display: -webkit-box;
@@ -334,371 +445,4 @@
         overflow: hidden;
     }
     .no-underline { text-decoration: none !important; }
-}
-
-/* ── Brand Design Additions ─────────────────────────────────── */
-
-/* Hero badge — pill aux couleurs de la marque */
-.hero-badge {
-  display: inline-block;
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #4D22A8;
-  border: 1.5px solid #4D22A8;
-  border-radius: 999px;
-  padding: 0.3rem 0.9rem;
-  margin-bottom: 1.5rem;
-  opacity: 0.9;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .hero-badge {
-    color: #a07ee8;
-    border-color: #a07ee8;
-  }
-}
-:root[data-theme="dark"] .hero-badge {
-  color: #a07ee8;
-  border-color: #a07ee8;
-}
-
-/* Ligne orange sous le titre hero */
-.hero-accent-line {
-  width: 3rem;
-  height: 3px;
-  background: #ED6609;
-  border-radius: 2px;
-  margin: 1rem auto 1.5rem;
-}
-
-/* Pictogramme carré aux couleurs de la marque */
-.feature-icon-wrap {
-  width: 48px;
-  height: 48px;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1rem;
-  flex-shrink: 0;
-}
-
-/* Icône partenaire */
-.partner-icon-wrap {
-  width: 44px;
-  height: 44px;
-  border-radius: 8px;
-  background: #4D22A8;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-/* Lang switcher — bouton toggle */
-.lang-switcher {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.2rem;
-  font-size: inherit;
-  font-family: inherit;
-}
-.lang-switcher .lang-sep {
-  opacity: 0.4;
-}
-
-/* ── Section "Le constat" ─────────────────────────── */
-.constat-section {
-  max-width: 80rem;
-  margin: 4rem auto;
-  padding: 0 1.5rem;
-}
-.constat-eyebrow {
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--color-tertiary, #5C6A61);
-  margin-bottom: 0.5rem;
-}
-.constat-title {
-  font-size: 1.6rem;
-  font-weight: 800;
-  margin-bottom: 2.5rem;
-  max-width: 38rem;
-  line-height: 1.25;
-}
-.constat-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
-}
-.constat-tile {
-  display: flex;
-  gap: 1rem;
-  align-items: flex-start;
-}
-.constat-picto {
-  flex-shrink: 0;
-  width: 56px;
-  height: 56px;
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.constat-label {
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 0.3rem;
-}
-.constat-desc {
-  font-size: 0.875rem;
-  opacity: 0.75;
-  line-height: 1.5;
-}
-
-/* ── Arche CTA ────────────────────────────────────── */
-.cta-arch {
-  position: absolute;
-  top: -10px;
-  right: 2rem;
-  opacity: 0.6;
-}
-
-/* ── Hero badge & accent ──────────────────────────── */
-.hero-badge {
-  display: inline-block;
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: #4D22A8;
-  border: 1.5px solid #4D22A8;
-  border-radius: 100px;
-  padding: 0.3rem 0.9rem;
-  margin-bottom: 1.2rem;
-}
-.hero-accent-line {
-  width: 3rem;
-  height: 3px;
-  background: #ED6609;
-  margin: 1rem 0;
-  border-radius: 2px;
-}
-
-/* ── Feature icon ─────────────────────────────────── */
-.feature-icon-wrap {
-  width: 48px;
-  height: 48px;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1rem;
-  flex-shrink: 0;
-}
-
-/* ── Lang switcher ────────────────────────────────── */
-.lang-switcher {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.2rem;
-  font-size: inherit;
-  font-family: inherit;
-}
-.lang-switcher .lang-sep {
-  opacity: 0.4;
-}
-
-/* ═══════════════════════════════════════════════════════════════
-   GLOBAL BRAND — header accent + footer sombre + h1 accent
-═══════════════════════════════════════════════════════════════ */
-
-/* Filet orange en haut du header */
-.site-header {
-  border-top: 3px solid #ED6609;
-}
-
-/* Footer sombre */
-.site-footer {
-  background: #1a1a1a !important;
-  color: #E9E6DE;
-}
-.footer-brand {
-  color: #ED6609 !important;
-  font-weight: 800 !important;
-  font-size: 1.05rem !important;
-}
-.footer-tagline {
-  color: rgba(233,230,222,0.55) !important;
-}
-.footer-col-title {
-  color: #E9E6DE !important;
-  font-size: 0.68rem !important;
-  font-weight: 700 !important;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-.footer-links a {
-  color: rgba(233,230,222,0.6) !important;
-  transition: color 0.15s;
-}
-.footer-links a:hover {
-  color: #ED6609 !important;
-}
-.footer-bottom {
-  border-top: 1px solid rgba(233,230,222,0.1) !important;
-  color: rgba(233,230,222,0.35) !important;
-}
-.footer-bottom a {
-  color: rgba(233,230,222,0.35) !important;
-}
-
-/* Accent orange sous les h1 de contenu */
-.site-main .prose h1::after,
-.site-main h1::after {
-  content: '';
-  display: block;
-  width: 2.5rem;
-  height: 3px;
-  background: #ED6609;
-  margin-top: 0.75rem;
-  border-radius: 2px;
-}
-
-/* Hover orange sur les liens nav */
-.site-nav a:hover,
-.nav-link:hover {
-  color: #ED6609 !important;
-}
-
-/* Bouton primaire — hover subtil */
-.btn-primary {
-  transition: background 0.2s, transform 0.15s;
-}
-.btn-primary:hover {
-  transform: translateY(-1px);
-}
-
-/* ═══════════════════════════════════════════════════════════════
-   SECTION ÉTAPES — blocs colorés + grain + arche
-═══════════════════════════════════════════════════════════════ */
-.steps-section {
-  max-width: 80rem;
-  margin: 3rem auto 0;
-  padding: 0 1.5rem;
-}
-.steps-eyebrow {
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: #ED6609;
-  margin-bottom: 0.4rem;
-}
-.steps-title {
-  font-size: 1.55rem;
-  font-weight: 800;
-  margin-bottom: 1.75rem;
-  max-width: 38rem;
-}
-.steps-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.25rem;
-}
-.step-block {
-  position: relative;
-  overflow: hidden;
-  border-radius: 6px;
-  padding: 2rem 1.5rem 1.75rem;
-  color: #E9E6DE;
-  min-height: 220px;
-}
-.step-block--orange { background: #ED6609; }
-.step-block--violet { background: #4D22A8; }
-.step-block--sage   { background: #5C6A61; }
-.step-block::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  opacity: 0.09;
-  mix-blend-mode: overlay;
-  pointer-events: none;
-  z-index: 0;
-}
-.step-arch {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  opacity: 0.45;
-  z-index: 1;
-}
-.step-number {
-  display: block;
-  font-size: 3rem;
-  font-weight: 900;
-  line-height: 1;
-  opacity: 0.2;
-  margin-bottom: 0.5rem;
-  position: relative;
-  z-index: 1;
-}
-.step-heading {
-  font-size: 1rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  margin-bottom: 0.65rem;
-  color: #E9E6DE !important;
-  position: relative;
-  z-index: 1;
-}
-.step-desc {
-  font-size: 0.875rem;
-  line-height: 1.6;
-  opacity: 0.82;
-  position: relative;
-  z-index: 1;
-}
-
-/* ═══════════════════════════════════════════════════════════════
-   PAGES DE CONTENU — h2/h3/hr/blockquote
-═══════════════════════════════════════════════════════════════ */
-.site-main .prose h2 {
-  border-left: 4px solid #4D22A8;
-  padding-left: 0.9rem;
-  margin-left: -1rem;
-}
-.site-main .prose h3 {
-  color: #ED6609;
-}
-.site-main .prose hr {
-  border: none;
-  height: 2px;
-  background: linear-gradient(90deg, #ED6609, #4D22A8 55%, transparent);
-  margin: 2.5rem 0;
-  opacity: 0.35;
-}
-.site-main .prose blockquote {
-  border-left: 4px solid #ED6609;
-  background: rgba(237,102,9,0.05);
-  padding: 1rem 1.5rem;
-  border-radius: 0 6px 6px 0;
-  font-style: normal;
 }
