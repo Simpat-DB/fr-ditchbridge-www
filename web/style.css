@@ -523,3 +523,73 @@
 .lang-switcher .lang-sep {
   opacity: 0.4;
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   GLOBAL BRAND — header accent + footer sombre + h1 accent
+═══════════════════════════════════════════════════════════════ */
+
+/* Filet orange en haut du header */
+.site-header {
+  border-top: 3px solid #ED6609;
+}
+
+/* Footer sombre */
+.site-footer {
+  background: #1a1a1a !important;
+  color: #E9E6DE;
+}
+.footer-brand {
+  color: #ED6609 !important;
+  font-weight: 800 !important;
+  font-size: 1.05rem !important;
+}
+.footer-tagline {
+  color: rgba(233,230,222,0.55) !important;
+}
+.footer-col-title {
+  color: #E9E6DE !important;
+  font-size: 0.68rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.footer-links a {
+  color: rgba(233,230,222,0.6) !important;
+  transition: color 0.15s;
+}
+.footer-links a:hover {
+  color: #ED6609 !important;
+}
+.footer-bottom {
+  border-top: 1px solid rgba(233,230,222,0.1) !important;
+  color: rgba(233,230,222,0.35) !important;
+}
+.footer-bottom a {
+  color: rgba(233,230,222,0.35) !important;
+}
+
+/* Accent orange sous les h1 de contenu */
+.site-main .prose h1::after,
+.site-main h1::after {
+  content: '';
+  display: block;
+  width: 2.5rem;
+  height: 3px;
+  background: #ED6609;
+  margin-top: 0.75rem;
+  border-radius: 2px;
+}
+
+/* Hover orange sur les liens nav */
+.site-nav a:hover,
+.nav-link:hover {
+  color: #ED6609 !important;
+}
+
+/* Bouton primaire — hover subtil */
+.btn-primary {
+  transition: background 0.2s, transform 0.15s;
+}
+.btn-primary:hover {
+  transform: translateY(-1px);
+}
