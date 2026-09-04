@@ -40,4 +40,4 @@ Ditchbridge s'appuie sur les travaux du **Centre Génie Industriel d'IMT Mines A
 
 ---
 
-*Vous souhaitez en savoir plus sur notre vision ou explorer un partenariat ? [Contactez-nous](/fr-ditchbridge-www/contact/).*
+*Vous souhaitez en savoir plus sur notre vision ou explorer un partenariat ? [Contactez-nous](mailto:contact@ditchbridge.fr).*
