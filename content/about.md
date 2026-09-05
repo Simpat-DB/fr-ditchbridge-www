@@ -18,6 +18,10 @@ contact@ditchbridge.fr
 Ce site est hébergé sur une infrastructure cloud conforme aux réglementations européennes en vigueur.
 
 Hébergeur : 
+Scaleway SAS
+8 rue de la Ville l'Évêque — 75008 Paris, France
+www.scaleway.com
+Scaleway est une filiale du groupe Iliad, société française, dont les datacenters sont situés en Europe.
 
 ## 3. Propriété intellectuelle
 
