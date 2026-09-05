@@ -2,9 +2,9 @@ name: Roq Site Deploy
 
 on:
   push:
-    branches: [ main ]   # Switch to the branch which should be deployed to GitHub Pages
+    branches: [ main ]
   schedule:
-    - cron: "0 5 * * *"  # Runs every day at 05:00 UTC to publish scheduled content
+    - cron: "0 5 * * *"
   workflow_dispatch:
 
 jobs:
@@ -15,35 +15,27 @@ jobs:
       - name: Generate Roq Site
         uses: quarkiverse/quarkus-roq@v1.1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}   # Used to automatically get the GitHub Pages url
-      - name: Find Roq output directory
-        run: |
-          echo "=== target/ contents ==="
-          ls -la target/ 2>/dev/null || echo "(target/ not found)"
-          echo "=== Searching for index.html ==="
-          find . -name "index.html" -not -path "./.git/*" -maxdepth 8 | head -10
+          github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Sync to Scaleway S3
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.SCW_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.SCW_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: fr-par
         run: |
-          SITE_DIR=$(find target -name "index.html" -maxdepth 5 2>/dev/null | head -1 | xargs -I{} dirname {})
-          if [ -z "$SITE_DIR" ]; then
-            echo "ERROR: Could not find generated site directory"
-            exit 1
-          fi
-          echo "Syncing from: $SITE_DIR"
-          aws s3 sync "$SITE_DIR/" s3://${{ secrets.S3_SCW_BUCKET_ID }}/ \
-            --endpoint-url https://s3.fr-par.scw.cloud \
+          ENDPOINT="https://s3.fr-par.scw.cloud"
+          BUCKET="s3://${{ secrets.S3_SCW_BUCKET_ID }}"
+          aws s3 sync target/roq/ "$BUCKET/" \
+            --endpoint-url "$ENDPOINT" \
             --delete
+          aws s3 sync target/roq/ "$BUCKET/fr-ditchbridge-www/" \
+            --endpoint-url "$ENDPOINT"
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     permissions:
-      pages: write      # to deploy to Pages
-      id-token: write   # to verify the deployment originates from an appropriate source
+      pages: write
+      id-token: write
     runs-on: ubuntu-latest
     needs: build
     steps:
