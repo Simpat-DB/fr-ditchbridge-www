@@ -16,6 +16,15 @@ jobs:
         uses: quarkiverse/quarkus-roq@v1.1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}   # Used to automatically get the GitHub Pages url
+      - name: Sync to Scaleway S3
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.SCW_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.SCW_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: fr-par
+        run: |
+          aws s3 sync target/roq-site/ s3://${{ secrets.S3_SCW_BUCKET_ID }}/ \
+            --endpoint-url https://s3.fr-par.scw.cloud \
+            --delete
   deploy:
     environment:
       name: github-pages
