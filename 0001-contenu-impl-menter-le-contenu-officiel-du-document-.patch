@@ -1,0 +1,324 @@
+From 8ba697dce4da9eab1f2ba893b5dd39644674268f Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Fri, 28 Aug 2026 12:31:02 +0000
+Subject: [PATCH] =?UTF-8?q?contenu:=20impl=C3=A9menter=20le=20contenu=20of?=
+ =?UTF-8?q?ficiel=20du=20document=20Word?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+- product.md : vision plateforme complète (7 sections)
+- company.md : histoire, fondateurs, ancrage académique, marché
+- team.md : Simon Patard, Charles Sabourdin, conseil scientifique
+- values.md : 5 valeurs Ditchbridge
+- contact.md : email + adresse Albi
+- about.md : mentions légales LCEN complètes
+---
+ content/about.md   | 41 +++++++++++++++++++++++--------------
+ content/company.md | 20 +++++++++++++-----
+ content/contact.md | 27 ++++++++----------------
+ content/product.md | 51 ++++++++++++++--------------------------------
+ content/team.md    | 27 ++++++++++--------------
+ content/values.md  | 23 +++++++++++----------
+ 6 files changed, 88 insertions(+), 101 deletions(-)
+
+diff --git a/content/about.md b/content/about.md
+index df21e27..f07f834 100644
+--- a/content/about.md
++++ b/content/about.md
+@@ -1,31 +1,42 @@
+ ---
+-# layout: default
+ title: Mentions légales
+ ---
+ 
+-## Éditeur du site
++*Conformément aux dispositions des articles 6-III et 19 de la Loi n° 2004-575 du 21 juin 2004 pour la Confiance dans l'Économie Numérique (LCEN).*
+ 
+-**Ditchbridge SAS**  
+-Plateforme SaaS pour l'organisation événementielle
++## 1. Éditeur du site
+ 
+-## Hébergement
++*[À COMPLÉTER — Dénomination sociale]*  
++*[À COMPLÉTER — Forme juridique et capital social]*  
++*[À COMPLÉTER — Siège social (adresse complète)]*  
++*[À COMPLÉTER — Numéro SIREN / SIRET et ville d'immatriculation au RCS]*  
++*[À COMPLÉTER — Numéro de TVA intracommunautaire]*  
++contact@ditchbridge.fr
+ 
+-Ce site est hébergé par des infrastructures cloud conformes aux réglementations européennes en vigueur.
++## 2. Hébergement du site
+ 
+-## Propriété intellectuelle
++Ce site est hébergé sur une infrastructure cloud conforme aux réglementations européennes en vigueur.
+ 
+-L'ensemble des contenus présents sur ce site (textes, images, logos, graphismes) sont la propriété exclusive de Ditchbridge SAS et sont protégés par les lois françaises et internationales relatives à la propriété intellectuelle. Toute reproduction, même partielle, est strictement interdite sans autorisation préalable.
++*[À COMPLÉTER — Raison sociale et coordonnées de l'hébergeur]*
+ 
+-## Protection des données personnelles
++## 3. Propriété intellectuelle
+ 
+-Ditchbridge SAS s'engage à protéger la vie privée de ses utilisateurs et à traiter les données personnelles collectées conformément au Règlement Général sur la Protection des Données (RGPD — Règlement UE 2016/679).
++L'ensemble des contenus présents sur ce site (textes, visuels, logos, marques, éléments graphiques et logiciels) est la propriété exclusive de la société éditrice ou de ses partenaires, sauf mention contraire, et est protégé par le droit de la propriété intellectuelle. Toute reproduction, représentation, modification ou exploitation, totale ou partielle, sans autorisation préalable écrite, est interdite.
+ 
+-Pour toute question relative à vos données personnelles, vous pouvez nous contacter à : **contact@ditchbridge.fr**
++La dénomination Ditchbridge ainsi que les technologies et éléments logiciels associés font l'objet de démarches de protection en cours (dépôt de marque, protection du code source, enveloppe de datation), notamment auprès de l'Institut National de la Propriété Industrielle (INPI) et de l'Agence pour la Protection des Programmes (APP).
+ 
+-## Cookies
++## 4. Données personnelles et cookies
+ 
+-Ce site utilise uniquement des cookies techniques nécessaires à son bon fonctionnement. Aucun cookie de traçage ou publicitaire n'est déposé sans votre consentement.
++Les données personnelles collectées via ce site (notamment via le formulaire de contact) sont traitées conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés. Elles sont utilisées exclusivement pour répondre aux demandes des visiteurs et ne sont ni cédées ni transmises à des tiers sans consentement préalable.
+ 
+-## Contact
++Pour toute question relative à vos données personnelles : **contact@ditchbridge.fr**
+ 
+-Pour toute demande d'information : [Contactez-nous](/contact)
++Ce site peut utiliser des cookies techniques nécessaires à son bon fonctionnement. Aucun cookie de mesure d'audience ou de ciblage publicitaire ne sera déposé sans le consentement préalable du visiteur.
++
++## 5. Limitation de responsabilité
++
++La société éditrice s'efforce d'assurer l'exactitude et la mise à jour des informations diffusées sur ce site, sans garantir l'exhaustivité ou l'absence d'erreurs. Elle ne saurait être tenue responsable des dommages directs ou indirects résultant de l'accès ou de l'utilisation de ce site.
++
++## 6. Droit applicable
++
++Les présentes mentions légales sont soumises au droit français. Tout litige relatif à leur interprétation ou à leur exécution relève de la compétence des tribunaux français.
+diff --git a/content/company.md b/content/company.md
+index fe00681..3cb81f0 100644
+--- a/content/company.md
++++ b/content/company.md
+@@ -1,11 +1,21 @@
+ ---
+-title: Ditchbridge
++title: La Société
+ ---
+ 
+-### Bienvenue chez Ditchbridge, la plateforme SaaS qui simplifie l'organisation de vos événements de A à Z.
++Ditchbridge est née d'un constat de terrain : après quinze années passées à organiser et sécuriser de grands événements sportifs, son fondateur a mesuré à quel point les équipes opérationnelles manquaient d'un outil réellement pensé pour leur métier — un outil capable de les accompagner dans l'instant, et non simplement de documenter ce qui s'est déjà produit.
+ 
+-Conçu pour les entreprises, agences et organisateurs exigeants, Ditchbridge centralise tous vos besoins sur une interface unique et intuitive. De la création de la billetterie au contrôle d'accès sur place, en passant par le matchmaking des participants et le suivi budgétaire, notre outil aide a l'automatisation de vos tâches les plus chronophages.
++## Une entreprise construite par et pour l'opérationnel
+ 
+-Gagnez un temps précieux, offrez une expérience fluide et mémorable à vos invités, et mesurez l'impact réel de vos événements grâce à nos tableaux de bord en temps réel.
++La société Ditchbridge a été fondée par Simon Patard, qui a passé dix ans au sein des opérations événementielles du Paris Saint-Germain puis trois ans au sein du comité d'organisation des Jeux Olympiques et Paralympiques de Paris 2024, aux côtés de Charles Sabourdin, architecte logiciel senior spécialisé dans la sécurité et la mise en production de systèmes critiques. Cette double culture — celle du terrain événementiel et celle de l'ingénierie logicielle exigeante — est au fondement du positionnement de Ditchbridge : construire un outil à partir des besoins réels des équipes opérationnelles, plutôt que d'adapter un outil générique au monde de l'événementiel.
+ 
+-Avec Ditchbridge, pilotez vos évènements, conférences, matchs et salons en toute sérénité et concentrez-vous sur l'essentiel : l'humain.
+\ No newline at end of file
++## Un ancrage académique fort
++
++Ditchbridge s'est construite en lien étroit avec le monde de la recherche, en particulier avec le centre Génie Industriel de l'IMT Mines Albi, à l'origine de la technologie qui a inspiré la plateforme. La société est accompagnée par l'incubateur de l'IMT Mines Albi et par le programme Lanceur d'Étoiles, et poursuit des échanges avec plusieurs structures d'accompagnement en Occitanie. Cet ancrage garantit à Ditchbridge un accès continu aux avancées les plus récentes en matière d'intelligence artificielle appliquée à la décision et de modélisation des systèmes complexes.
++
++## Un positionnement clair sur un marché en forte croissance
++
++Le marché des plateformes de pilotage opérationnel événementiel connaît une croissance soutenue, portée par la digitalisation des sites, l'essor de l'intelligence artificielle appliquée aux opérations et le renforcement des exigences de sûreté. Ce marché reste aujourd'hui fragmenté : les acteurs en présence se concentrent chacun sur un segment particulier — gestion d'incidents, contrôle d'accès, cartographie, chronométrage — sans qu'aucun ne se soit imposé sur l'ensemble du cycle de vie opérationnel d'un événement, de la préparation au retour d'expérience. C'est précisément cet espace que Ditchbridge entend occuper, en tant que plateforme unifiée d'aide au pilotage, taillée pour l'événementiel et les grands rassemblements.
++
++## Une ambition qui dépasse l'événementiel
++
++Si les événements constituent le premier terrain de déploiement de Ditchbridge, la logique de pilotage en temps réel de systèmes complexes et multi-acteurs que porte la plateforme a vocation à s'étendre, à terme, à d'autres secteurs confrontés aux mêmes enjeux de coordination critique — l'énergie, l'eau ou les transports. Ditchbridge inscrit son développement dans une trajectoire progressive, résolument tournée vers l'excellence opérationnelle et la souveraineté technologique européenne.
+diff --git a/content/contact.md b/content/contact.md
+index ae1692e..cbc1c69 100644
+--- a/content/contact.md
++++ b/content/contact.md
+@@ -1,27 +1,18 @@
+ ---
+-title: Contactez-nous
++title: Contact
+ ---
+ 
+-## Vous souhaitez en savoir plus ?
++Que vous soyez organisateur d'événements, responsable des opérations, partenaire ou investisseur souhaitant échanger avec l'équipe Ditchbridge, n'hésitez pas à nous contacter.
+ 
+-Que vous souhaitiez planifier une démonstration, discuter d'un partenariat ou simplement en apprendre davantage sur Ditchbridge, notre équipe est là pour vous répondre.
++## Nous écrire
+ 
+-### Demande de démonstration
++**[contact@ditchbridge.fr](mailto:contact@ditchbridge.fr)**
+ 
+-Vous organisez des événements et souhaitez voir Ditchbridge en action ? Écrivez-nous à **demo@ditchbridge.fr** et nous programmons une session personnalisée adaptée à vos enjeux.
++Notre équipe s'engage à répondre à toute demande dans les meilleurs délais.
+ 
+-### Partenariats & Recherche
++## Siège social
+ 
+-Nous sommes ouverts aux collaborations avec des acteurs de la recherche, des intégrateurs et des acteurs institutionnels du secteur événementiel. Contactez-nous à **partners@ditchbridge.fr**.
++20 chemin de la Teulière  
++81000 Albi
+ 
+-### Recrutement
+-
+-Vous souhaitez rejoindre l'aventure ? Consultez nos [fiches de poste](/recrutment) ou envoyez-nous une candidature spontanée à **jobs@ditchbridge.fr**.
+-
+-### Nous écrire
+-
+-Pour toute autre question : **contact@ditchbridge.fr**
+-
+----
+-
+-*Notre équipe s'engage à vous répondre sous 48 heures ouvrées.*
++Ditchbridge est basée en Occitanie, au cœur d'un écosystème académique et entrepreneurial dédié à l'innovation technologique.
+diff --git a/content/product.md b/content/product.md
+index 148e0b1..c157910 100644
+--- a/content/product.md
++++ b/content/product.md
+@@ -2,55 +2,34 @@
+ title: La Plateforme
+ ---
+ 
+-## Une vision : réconcilier technologie et terrain
++Piloter un événement en direct, c'est composer en permanence avec l'imprévu : un flux qui s'accélère, une porte qui sature, une équipe qu'il faut redéployer en quelques minutes, dans un environnement où les acteurs doivent rester synchronisés. Ditchbridge a été conçu pour répondre précisément à cette réalité : donner aux organisateurs et aux acteurs une plateforme unique de pilotage opérationnel, capable de comprendre une situation, d'anticiper son évolution et d'orchestrer la réponse en temps réel.
+ 
+-Les grands événements — festivals, compétitions sportives, rassemblements institutionnels — mobilisent des centaines de personnes, de prestataires et de flux d'information simultanés. Pourtant, la coordination repose encore trop souvent sur des outils fragmentés, des canaux de communication disparates et des décisions prises sans vision d'ensemble.
++## Une vision unifiée du dispositif
+ 
+-Ditchbridge est né de ce constat. Notre ambition : construire la plateforme de référence pour la gestion opérationnelle des événements complexes — en connectant décideurs, équipes terrain et prestataires au sein d'un écosystème numérique unifié.
++Ditchbridge agrège en un seul environnement les données issues des différents systèmes présents sur un site événementiel — flux et affluence, équipes terrain, accès, alertes, communications — et les restitue sous la forme d'un jumeau numérique du site, lisible en un coup d'œil. Le PC opérations dispose ainsi d'une vue de situation commune, partagée avec les équipes déployées sur le terrain, là où les outils actuels restent le plus souvent cloisonnés par métier ou par zone.
+ 
+----
+-
+-## Ce que Ditchbridge permet de faire
+-
+-### 🗺️ Supervision centralisée
+-
+-Un tableau de bord unique agrège en temps réel l'ensemble des flux de l'événement : billetterie, contrôle d'accès, état des zones, indicateurs opérationnels. Les responsables disposent d'une vision globale et instantanée, sans jongler entre plusieurs outils.
+-
+-### ⚡ Réactivité terrain
+-
+-Les alertes sont détectées, qualifiées et escaladées automatiquement selon des règles paramétrables. Les équipes reçoivent les bonnes informations au bon moment — sur mobile ou montre connectée — et peuvent valider une action ou déclencher une intervention en quelques secondes.
++## Anticiper plutôt que subir
+ 
+-### 🤝 Coordination sans silos
++La singularité de Ditchbridge tient à son moteur de décision, conçu pour détecter les signaux faibles d'une dégradation avant qu'elle ne devienne un incident : une congestion à une porte, une saturation d'accès, un retard qui se propage. Plutôt que de se contenter de faire remonter des incidents une fois survenus, la plateforme anticipe et propose un schéma de réponse explicable, argumenté, appuyé sur l'expérience des cas déjà rencontrés. Ensuite, le décideur peut valider ou ajuster la réponse opérationnelle.
+ 
+-Ditchbridge connecte tous les acteurs de l'événement : du manager en tour de contrôle à l'agent sur le terrain, en passant par les prestataires externes. Fini les pertes d'information entre les couches hiérarchiques ou les équipes métier.
++## De la décision à l'action, sans rupture
+ 
+-### 📋 Gestion des incidents
++Une fois la décision validée, Ditchbridge orchestre sa mise en œuvre : chaque intervenant reçoit sa tâche en direct sur son application terrain, l'accepte, l'exécute et en confirme la réalisation. Le PC opérations suit ainsi l'avancement de la réponse en temps réel, avec une traçabilité complète des actions engagées — une chaîne continue entre la donnée, la décision et l'action, sans ressaisie ni rupture de charge entre les équipes.
+ 
+-Les dysfonctionnements sont tracés, assignés et suivis jusqu'à leur résolution. Chaque incident génère un historique complet, exploitable en post-événement pour améliorer les processus.
++## Un dispositif qui apprend de chaque événement
+ 
+-### 📱 Accessibilité totale
++Chaque événement piloté via Ditchbridge vient enrichir un référentiel opérationnel commun : les décisions prises, les délais de résolution, les schémas de réponse efficaces sont capitalisés pour affiner les recommandations futures. À la clôture de chaque événement, un rapport de bilan est généré automatiquement, consolidant la chronologie complète des faits, des décisions et des résultats obtenus — un outil précieux tant pour le retour d'expérience opérationnel que pour la démonstration de la performance du dispositif de sûreté.
+ 
+-L'écosystème Ditchbridge couvre l'ensemble des usages : interface web pour les décideurs, application mobile pour les équipes terrain, intégration wearable pour les interventions en temps réel.
++## Une technologie ancrée dans quinze années de recherche
+ 
+----
+-
+-## Stade actuel : Proof of Concept
+-
+-Ditchbridge est aujourd'hui en phase de **Proof of Concept (POC)**. Les fondations techniques sont posées, les cas d'usage validés avec des experts du secteur événementiel, et les premiers modules sont en cours de développement.
++Ditchbridge s'appuie sur les travaux de recherche menés depuis plus d'une décennie au centre Génie Industriel de l'IMT Mines Albi sur la modélisation de systèmes collaboratifs complexes et l'aide à la décision en situation de crise. Cette technologie, conçue à l'origine pour la gestion de crise, a été spécialisée et adaptée par Ditchbridge aux exigences propres du pilotage d'événements et des grands rassemblements : forte densité humaine, multiplicité des acteurs, tension temporelle du direct. Ces problématiques se retrouvent dans de nombreux autres secteurs et permettent ainsi à Ditchbridge d'entrevoir un futur plus large que seulement celui du pilotage d'événements.
+ 
+-Cette phase nous permet de :
+-- Affiner les besoins réels des organisateurs d'événements
+-- Valider les choix d'architecture avec notre partenaire de recherche
+-- Construire les premiers retours terrain avant un déploiement pilote
+-
+-Nous sommes ouverts à des partenariats avec des organisateurs souhaitant co-construire la solution et participer aux premières expérimentations.
+-
+----
++## Conçue pour le direct, pas seulement pour la préparation
+ 
+-## Un socle scientifique solide
++De nombreux outils du marché sont d'abord pensés pour la planification en amont (cartographie, organisation logistique) ou pour des fonctions ciblées (contrôle d'accès, chronométrage, accréditation). Ditchbridge se positionne différemment : comme la couche d'orchestration transverse qui relie ces systèmes entre eux et accompagne les équipes précisément là où l'enjeu est le plus critique — le jour J, en conditions réelles, quand chaque minute compte.
+ 
+-Ditchbridge s'appuie sur les travaux du **Centre Génie Industriel d'IMT Mines Albi** et sa plateforme de recherche **RIO** (*Risk management & Interoperability within Organizations*). Cette collaboration garantit que les algorithmes décisionnels intégrés à la plateforme reposent sur des modèles éprouvés — et pas seulement sur des intuitions produit.
++Néanmoins, sa fonction de jumeau numérique permet aussi à Ditchbridge de simuler des procédures et des situations exceptionnelles en amont des opérations, pour éprouver la robustesse des plans de sécurité, entraîner les équipes à collaborer sur des scénarios réalistes et arbitrer l'allocation des ressources avant que les fragilités d'un dispositif ne se révèlent en conditions réelles. Préparation et direct s'appuient ainsi sur un seul et même modèle du site, garantissant une continuité totale entre l'entraînement et l'exécution réelle.
+ 
+ ---
+ 
+-*Vous souhaitez en savoir plus sur notre vision ou explorer un partenariat ? [Contactez-nous](/contact).*
++*Vous souhaitez en savoir plus ou explorer un partenariat ? [Contactez-nous](/contact).*
+diff --git a/content/team.md b/content/team.md
+index 7a65388..a0e485c 100644
+--- a/content/team.md
++++ b/content/team.md
+@@ -1,28 +1,23 @@
+ ---
+-# layout: default
+-title: Notre Equipe
++title: L'Équipe
+ ---
+ 
+-### Simon : l’instinct du terrain au service d’une vision ambitieuse
++Ditchbridge réunit une équipe fondatrice issue directement du terrain événementiel et de l'ingénierie logicielle, épaulée par un conseil scientifique composé des chercheurs à l'origine de la technologie sur laquelle s'appuie la plateforme.
+ 
+-Il y a des entrepreneurs que les défis complexes n'effraient pas, bien au contraire : ils les stimulent. Simon fait partie de cette catégorie de bâtisseurs capables d'établir un pont parfait entre les exigences du terrain et la précision technologique.
++## L'équipe fondatrice
+ 
+-Passionné, déterminé et doté d'une véritable culture de l'action, Simon incarne un leadership naturel qui fédère immédiatement autour de lui. Son approche se distingue par une compréhension fine des enjeux opérationnels et une capacité rare à transformer des problématiques d'organisation denses en solutions fluides, efficaces et intuitives. À la fois visionnaire et profondément pragmatique, il sait impulser la bonne dynamique, connecter les expertises — de l'ingénierie logicielle jusqu'à la recherche scientifique de pointe — et faire avancer ses projets avec une clarté remarquable.
++**Simon Patard — Président & fondateur**
+ 
+-Alliant une réactivité à toute épreuve à un sens aigu du collectif, Simon avance toujours avec une priorité : apporter de la valeur concrète et garantir l'excellence, sans jamais perdre de vue la simplicité d'exécution. C'est ce moteur humain et technique qui fait de lui un véritable catalyseur d'innovation.
++Fort de dix années passées au sein des opérations événementielles du Paris Saint-Germain, puis de trois années au comité d'organisation des Jeux Olympiques et Paralympiques Paris 2024, Simon Patard a piloté des dispositifs événementiels exigeants et variés. C'est de cette expérience directe, au contact quotidien des contraintes du terrain et de la pression du direct, qu'est née la conviction à l'origine de Ditchbridge : les équipes opérationnelles ont besoin d'un outil pensé pour elles, et non adapté d'un autre secteur. Il a récemment complété cette expertise opérationnelle par une certification en stratégie d'entreprise à HEC obtenue en janvier 2026.
+ 
+-### Charles : l’excellence technique et l’art de l’architecture résiliente
++**Charles Sabourdin — Directeur technique**
+ 
+-Derrière chaque système d'une fiabilité irréprochable se cache un esprit méthodique et brillant. Charles est la cheville ouvrière technique qui transforme la complexité brute en infrastructures fluides, robustes et d'une stabilité sans faille.
++Diplômé de l'ESSEC et de l'ESIEA, Charles Sabourdin est architecte logiciel senior, spécialiste des environnements Java, de la sécurité applicative et de la mise en production de systèmes critiques. Il pilote la conception technique de la plateforme et sa transformation d'une technologie de recherche vers un produit industriel robuste et sécurisé.
+ 
+-Expert incontournable de l’ingénierie logicielle et de l'écosystème Java, Charles se distingue par une vision architecturale d'une grande maturité et une précision chirurgicale dans la conception. Là où d'autres voient des obstacles techniques ou des contraintes de charge insurmontables, il perçoit des équations à résoudre et des mécanismes à optimiser. Toujours à l'affût des meilleures pratiques et passionné par les technologies à haute performance, il sait bâtir des fondations applicatives capables d'absorber les défis les plus ambitieux sans jamais vaciller.
++## Le conseil scientifique
+ 
+-Mais au-delà de sa grande maîtrise technique, Charles apporte une valeur inestimable au collectif : une capacité rare à faire le lien entre la recherche, les besoins du terrain et l'élégance du code. Calme, rigoureux et profondément orienté vers la qualité, il incarne l'exigence ingénieure et insuffle une totale confiance à ses équipes comme à ses partenaires.
++Ditchbridge s'appuie sur un comité de chercheurs reconnus, à l'origine des travaux fondateurs de la plateforme :
+ 
+-### Emmanuel : la rigueur scientifique et l'art de la modélisation
++**Frédérick Benaben** — Professeur en systèmes d'information à IMT Mines Albi et à Georgia Tech, spécialiste de la modélisation et des outils numériques pour la collaboration et la prise de décision en environnement complexe. Il est le créateur de la plateforme de recherche R-IO Suite, à l'origine du projet Ditchbridge.
+ 
+-Il est de ces esprits capables de prendre la complexité du monde réel, d'en démêler les fils et de la traduire en modèles d'une clarté limpide. Emmanuel est le garant de la cohérence conceptuelle et de la précision algorithmique, apportant une profondeur d'analyse indispensable aux projets les plus ambitieux.
+-
+-Expert reconnu en modélisation et en ingénierie des systèmes, Emmanuel possède cette faculté rare d'élever chaque problématique opérationnelle au niveau d'une structure mathématique et logique parfaite. Rigoureux, méthodique et toujours ancré dans l'innovation scientifique, il sait faire le pont entre la recherche de pointe et les contraintes concrètes du terrain. Sa vision permet d'anticiper les comportements des systèmes complexes, d'optimiser les processus logistiques et de transformer des volumes de données brutes en leviers de décision stratégiques.
+-
+-Pragmatique malgré la haute technicité de son domaine, Emmanuel se distingue par son sens du partage et son approche collaborative. Il sait rendre intelligibles les concepts les plus abstraits, faisant de la modélisation un véritable outil d'alignement pour toute l'équipe. Par sa rigueur et son intelligence du composant, il insuffle une valeur scientifique inestimable au collectif.
+\ No newline at end of file
++**Sébastien Rebiere et Nicolas Salatge** — Ingénieurs de recherche au centre Génie Industriel de l'IMT Mines Albi, co-développeurs de la plateforme R-IO Suite.
+diff --git a/content/values.md b/content/values.md
+index b580da3..d81acf0 100644
+--- a/content/values.md
++++ b/content/values.md
+@@ -1,24 +1,25 @@
+ ---
+-#layout: default
+ title: Nos Valeurs
+ ---
+ 
+-## 1. L'exigence du terrain
++Ditchbridge défend une conception exigeante et responsable de la technologie au service des opérations critiques. Cinq convictions guident au quotidien la manière dont nous concevons notre plateforme et construisons notre entreprise.
+ 
+-Nous créons des outils pensés par et pour ceux qui sont dans l'action. Chaque fonctionnalité est conçue pour coller à vos réalités opérationnelles, vous offrir une réactivité immédiate et répondre aux imprévus sans perdre une seconde.
++## Anticiper plutôt que subir
+ 
+-## 2. La rigueur
++Notre conviction fondatrice : la meilleure gestion d'incident est celle qui l'évite. Nous concevons chaque fonctionnalité de Ditchbridge dans cette logique d'anticipation, au service d'équipes qui doivent pouvoir agir avant que la situation ne se dégrade, plutôt que de simplement réagir une fois le problème constaté.
+ 
+-Quand l'erreur n'est pas une option, la précision devient une obligation. Nous vous garantissons des systèmes d'une fiabilité absolue, d'une architecture robuste et d'une sécurité maximale pour que vos opérations tournent sans le moindre accroc.
++## La rigueur du terrain
+ 
+-## 3. La simplicité
++Notre légitimité vient de l'expérience directe des opérations événementielles. Nous concevons Ditchbridge avec la même exigence que celle qu'impose le pilotage d'un grand événement en direct : fiabilité, clarté et disponibilité sans compromis.
+ 
+-Derrière des technologies hautement complexes, nous faisons le choix de l'évidence. Nous transformons les volumes de données et la logistique lourde en interfaces fluides, claires et intuitives pour que vous restiez maître du jeu en un coup d'œil.
++## Une souveraineté technologique assumée
+ 
+-## 4. L'esprit d'équipe
++Le logiciel Ditchbridge est conçu et développé en France, en lien avec la recherche académique publique. Nous portons l'ambition d'un outil souverain, maîtrisé de bout en bout, pour des acteurs — publics comme privés — pour qui la maîtrise de la donnée opérationnelle est un enjeu stratégique.
+ 
+-Un événement ou un projet d'envergure ne se réussit jamais seul. Nous nous pensons comme le prolongement de vos équipes : un partenaire disponible, à l'écoute et engagé à vos côtés, de la préparation jusqu'au bilan.
++## Une technologie responsable
+ 
+-## 5. La souveraineté
++Nous concevons notre plateforme dans une logique de sobriété numérique, en cherchant en permanence à optimiser l'empreinte énergétique de nos infrastructures et de nos modèles d'intelligence artificielle, pour nous-mêmes comme pour nos clients.
+ 
+-Vos données et la maîtrise de vos choix vous appartiennent. Nous nous engageons à vous offrir une infrastructure indépendante, sécurisée et conforme aux standards les plus exigeants pour garantir la confidentialité totale de vos opérations.
+\ No newline at end of file
++## Le partage et la créativité comme moteurs
++
++Ditchbridge cultive une culture d'entreprise fondée sur le sérieux, l'inclusion, le partage des connaissances et la créativité. Nous croyons que la meilleure réponse aux problèmes complexes de l'événementiel naît de la rencontre entre des cultures différentes — celle du terrain, celle de la recherche, celle de l'ingénierie — et nous cultivons cette diversité au sein de notre équipe comme avec nos partenaires.
+-- 
+2.43.0
+
