@@ -1,0 +1,84 @@
+---
+layout: default
+---
+
+<!-- ── Hero Section ───────────────────────────────────────────── -->
+<section class="hero-section">
+  <div class="hero-inner">
+    <span class="hero-badge">{page.data.badge}</span>
+    <h1 class="hero-title">
+      {page.data.greeting}
+    </h1>
+    <p class="hero-tagline">
+      {page.data.tagline}
+    </p>
+    <div class="hero-actions">
+      <a href="{site.url.resolve(page.data.product_url)}" class="btn-primary">
+        {page.data.cta_discover}
+      </a>
+      <a href="mailto:contact@ditchbridge.fr" class="btn-secondary">
+        {page.data.cta_contact}
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Feature highlights ─────────────────────────────────────── -->
+<div class="features-grid">
+  <div class="feature-card">
+    <div class="feature-card-icon">
+      <svg width="24" height="24" style="color:var(--color-accent-500)" aria-hidden="true"><use href="#{page.data.feat1_icon}"/></svg>
+    </div>
+    <h3>{page.data.feat1_title}</h3>
+    <p>{page.data.feat1_desc}</p>
+  </div>
+  <div class="feature-card">
+    <div class="feature-card-icon">
+      <svg width="24" height="24" style="color:var(--color-accent-500)" aria-hidden="true"><use href="#{page.data.feat2_icon}"/></svg>
+    </div>
+    <h3>{page.data.feat2_title}</h3>
+    <p>{page.data.feat2_desc}</p>
+  </div>
+  <div class="feature-card">
+    <div class="feature-card-icon">
+      <svg width="24" height="24" style="color:var(--color-accent-500)" aria-hidden="true"><use href="#{page.data.feat3_icon}"/></svg>
+    </div>
+    <h3>{page.data.feat3_title}</h3>
+    <p>{page.data.feat3_desc}</p>
+  </div>
+</div>
+
+
+<!-- ── Contenu Markdown (les 3 sections de l'index) ──────────── -->
+<section class="max-w-7xl mx-auto px-6 py-4 prose dark:prose-invert prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 max-w-none">
+  {#insert /}
+</section>
+
+<!-- ── CTA ────────────────────────────────────────────────────── -->
+<div class="max-w-7xl mx-auto px-6">
+  <div class="cta-section">
+    <h2>{page.data.cta_title}</h2>
+    <div class="flex gap-4 justify-center flex-wrap">
+      <a href="mailto:contact@ditchbridge.fr" class="btn-white">{page.data.cta_contact}</a>
+      <a href="{site.url.resolve(page.data.product_url)}" style="color:white;text-decoration:none;border:1px solid rgba(255,255,255,0.5);padding:0.75rem 1.5rem;border-radius:0.5rem;font-weight:600;font-size:0.875rem;display:inline-flex;align-items:center;gap:0.5rem;">
+        {page.data.cta_discover}
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ── Partenaire de recherche ────────────────────────────────── -->
+<div class="partner-section">
+  <p style="font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:var(--color-tertiary);margin-bottom:1rem;">{page.data.partner_label}</p>
+  <h2>{page.data.partner_title}</h2>
+  <p>{page.data.partner_desc}</p>
+  <div class="partner-card">
+    <div class="feature-card-icon" style="margin-bottom:0;flex-shrink:0">
+      <svg width="24" height="24" style="color:var(--color-accent-500)" aria-hidden="true"><use href="#ico-building"/></svg>
+    </div>
+    <div>
+      <p class="partner-name">IMT Mines Albi</p>
+      <p class="partner-desc">Centre Génie Industriel</p>
+    </div>
+  </div>
+</div>
