@@ -21,6 +21,63 @@
     {#bundle /}
 </head>
 <body>
+
+    <!-- ══ Icônes DB mark — symboles réutilisables ══ -->
+    <svg width="0" height="0" style="position:absolute;overflow:hidden;" aria-hidden="true">
+      <defs>
+
+        <!-- 1. DASHBOARD — grille 4 blocs + découpe pilule -->
+        <symbol id="ico-dashboard" viewBox="0 0 24 24">
+          <rect x="2"  y="2"  width="9" height="9"  rx="1.5" fill="currentColor"/>
+          <rect x="2"  y="13" width="9" height="9"  rx="1.5" fill="currentColor"/>
+          <rect x="13" y="2"  width="9" height="5"  rx="1.5" fill="currentColor"/>
+          <rect x="13" y="9"  width="9" height="13" rx="1.5" fill="currentColor"/>
+          <rect x="15" y="11.5" width="5" height="8" rx="2.5" style="fill:var(--color-accent-100)"/>
+        </symbol>
+
+        <!-- 2. PULSE — ligne EKG -->
+        <symbol id="ico-pulse" viewBox="0 0 24 24">
+          <polyline points="1,12 5,12 8,4 12,20 16,8 19,12 23,12"
+            fill="none" stroke="currentColor"
+            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+
+        <!-- 3. RÉSEAU — nœuds carrés + traits -->
+        <symbol id="ico-network" viewBox="0 0 24 24">
+          <rect x="9.5"  y="1.5"  width="5" height="5" rx="2.5" fill="currentColor"/>
+          <rect x="1.5"  y="17.5" width="5" height="5" rx="2.5" fill="currentColor"/>
+          <rect x="17.5" y="17.5" width="5" height="5" rx="2.5" fill="currentColor"/>
+          <line x1="12"  y1="6.5" x2="4"   y2="17.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <line x1="12"  y1="6.5" x2="20"  y2="17.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <line x1="6.5" y1="20"  x2="17.5" y2="20"  stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </symbol>
+
+        <!-- 4. ALERTE — losange plein + découpe pilule exclamation -->
+        <symbol id="ico-alert" viewBox="0 0 24 24">
+          <path d="M12 1 L23 12 L12 23 L1 12 Z" fill="currentColor"/>
+          <rect x="10.5" y="7"  width="3" height="7.5" rx="1.5" style="fill:var(--color-accent-100)"/>
+          <circle cx="12" cy="18" r="1.5" style="fill:var(--color-accent-100)"/>
+        </symbol>
+
+        <!-- 5. TÉLÉPHONE — silhouette pleine + découpe pilule + point -->
+        <symbol id="ico-phone" viewBox="0 0 24 24">
+          <rect x="5" y="1" width="14" height="22" rx="4" fill="currentColor"/>
+          <rect x="9" y="3.5" width="6" height="2.5" rx="1.25" style="fill:var(--color-accent-100)"/>
+          <circle cx="12" cy="19.5" r="1.8" style="fill:var(--color-accent-100)"/>
+        </symbol>
+
+        <!-- 6. BÂTIMENT — silhouette + fenêtres en arche + porte -->
+        <symbol id="ico-building" viewBox="0 0 24 24">
+          <path d="M2 10 L12 2 L22 10 V22 H2 Z" fill="currentColor"/>
+          <rect x="4"    y="11.5" width="4" height="6" rx="2" style="fill:var(--color-accent-100)"/>
+          <rect x="10"   y="11.5" width="4" height="6" rx="2" style="fill:var(--color-accent-100)"/>
+          <rect x="16"   y="11.5" width="4" height="6" rx="2" style="fill:var(--color-accent-100)"/>
+          <rect x="10.5" y="18"   width="3" height="4" rx="0" style="fill:var(--color-accent-100)"/>
+        </symbol>
+
+      </defs>
+    </svg>
+
     {#include partials/header.html /}
 
     <main class="site-main">
