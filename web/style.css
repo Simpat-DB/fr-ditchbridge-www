@@ -38,6 +38,7 @@
     --color-accent-500: #4D22A8;   /* BRAND: violet principal */
     --color-accent-600: #3d1a87;
     --color-accent-700: #2e1266;
+    --color-accent-100: #ede6f7;   /* fond boîte icône / découpe pilule SVG */
 
     /* Orange — couleur secondaire */
     --color-orange: #ED6609;
@@ -63,6 +64,7 @@
     --color-code-text: #9d7ed4;
     --color-pre-bg: #0f0a1e;
     --color-pre-text: #E9E6DE;
+    --color-accent-100: #211545;   /* découpe pilule SVG en dark */
 }
 
 @layer base {
