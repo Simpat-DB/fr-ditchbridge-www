@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{#insert /}
+
+<script>
+(function() {
+  var icons = ['ico-dashboard','ico-pulse','ico-network','ico-alert','ico-phone'];
+  function inject() {
+    document.querySelectorAll('main h3').forEach(function(h3, i) {
+      if (!icons[i] || h3.querySelector('svg')) return;
+      var svg = document.createElementNS('http://www.w3.org/2000/svg','svg');
+      svg.setAttribute('width','22'); svg.setAttribute('height','22');
+      svg.setAttribute('aria-hidden','true');
+      svg.style.cssText = 'color:var(--color-accent-500);flex-shrink:0;vertical-align:middle;margin-right:8px;margin-bottom:3px;';
+      var use = document.createElementNS('http://www.w3.org/2000/svg','use');
+      use.setAttribute('href','#' + icons[i]);
+      svg.appendChild(use);
+      h3.insertBefore(svg, h3.firstChild);
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', inject);
+  else inject();
+})();
+</script>
