@@ -28,12 +28,12 @@
         {/for}
       </nav>
 
-      <!-- Language Switcher -->
-      <span class="lang-switcher">
-        <a id="lang-fr" href="{site.url.resolve('/')}" class="lang-active" title="Version française">FR</a>
-        <span style="opacity:0.4;">/</span>
-        <a id="lang-en" href="{site.url.resolve('/en/')}" title="English version">EN</a>
-      </span>
+      <!-- Language Switcher — bouton unique -->
+      <button id="lang-toggle" class="lang-switcher" aria-label="Changer de langue / Switch language">
+        <span id="lang-fr-label">FR</span>
+        <span class="lang-sep">/</span>
+        <span id="lang-en-label">EN</span>
+      </button>
 
       <!-- Theme Toggle -->
       <button class="nav-item theme-toggle" aria-label="Toggle theme">
@@ -62,19 +62,47 @@
 </header>
 
 <script>
-// Highlight active language based on current URL
 (function() {
   const path = window.location.pathname;
-  const isEn = path.includes('/en/') || path.endsWith('/en');
-  const frEl = document.getElementById('lang-fr');
-  const enEl = document.getElementById('lang-en');
-  if (!frEl || !enEl) return;
+  const isEn = path.startsWith('/en/') || path === '/en';
+
+  // 1. Mettre en évidence la langue active
+  const frLabel = document.getElementById('lang-fr-label');
+  const enLabel = document.getElementById('lang-en-label');
+  if (frLabel && enLabel) {
+    if (isEn) {
+      enLabel.classList.add('lang-active');
+    } else {
+      frLabel.classList.add('lang-active');
+    }
+  }
+
+  // 2. Bouton toggle : navigue vers l'équivalent dans l'autre langue
+  const toggle = document.getElementById('lang-toggle');
+  if (toggle) {
+    toggle.addEventListener('click', function() {
+      if (isEn) {
+        // FR : supprimer le préfixe /en
+        const frPath = path.replace(/^\/en/, '') || '/';
+        window.location.href = frPath;
+      } else {
+        // EN : ajouter le préfixe /en
+        const enPath = '/en' + (path === '/' ? '/' : path);
+        window.location.href = enPath;
+      }
+    });
+  }
+
+  // 3. Corriger les liens de navigation sur les pages EN intérieures
+  //    (les pages /en/product etc. héritent de la nav FR par défaut)
   if (isEn) {
-    frEl.classList.remove('lang-active');
-    enEl.classList.add('lang-active');
-  } else {
-    enEl.classList.remove('lang-active');
-    frEl.classList.add('lang-active');
+    document.querySelectorAll('nav a').forEach(function(a) {
+      try {
+        if (a.hostname === window.location.hostname && !a.pathname.startsWith('/en')) {
+          a.href = '/en' + a.pathname + a.search + a.hash;
+        }
+      } catch(e) {}
+    });
   }
 })();
 </script>
