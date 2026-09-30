@@ -20,6 +20,23 @@ navigation:
     url: /en/about
 social:
 paginate: posts
+badge: "🎯 The operational control tower"
+cta_discover: "Discover the platform →"
+cta_contact: "Get in touch"
+product_url: /en/product
+cta_title: "Want to learn more or work together?"
+feat1_icon: ico-dashboard
+feat1_title: "Unified operational view"
+feat1_desc: "Monitor your entire site from a single dashboard: access, field teams, alerts and real-time flows."
+feat2_icon: ico-pulse
+feat2_title: "Field responsiveness"
+feat2_desc: "Automatic alert escalation, validated in one gesture from mobile or wearable — respond instantly, anywhere."
+feat3_icon: ico-network
+feat3_title: "Seamless coordination"
+feat3_desc: "Connect decision-makers, field teams and contractors. No more silos: everyone has the right information at the right time."
+partner_label: "Research partner"
+partner_title: "A platform backed by academic research"
+partner_desc: "Ditchbridge collaborates with the Industrial Engineering centre of IMT Mines Albi to integrate advanced decision-making approaches into your event management."
 ---
 
 ## A unified view for seamless operations
