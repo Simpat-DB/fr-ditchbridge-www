@@ -1,5 +1,18 @@
 ---
 title: Join Us
+navigation:
+  - title: The Platform
+    url: /en/product
+  - title: The Company
+    url: /en/company
+  - title: The Team
+    url: /en/team
+  - title: Our Values
+    url: /en/values
+  - title: Contact
+    url: /en/contact
+  - title: Legal Notice
+    url: /en/about
 ---
 
 ## We're hiring — come build with us
