@@ -19,9 +19,13 @@ Ditchbridge brings together a founding team drawn directly from field event oper
 
 ## The founding team
 
+<img src="{site.url.resolve('/Photo_SPA.jpg')}" alt="Simon Patard" style="width:160px;height:160px;object-fit:cover;border-radius:50%;">
+
 **Simon Patard — President & founder**
 
 With ten years in the event operations of Paris Saint-Germain, followed by three years at the organising committee of the Paris 2024 Olympic and Paralympic Games, Simon Patard has led demanding and varied event deployments. It is from this direct experience — in daily contact with field constraints and the pressure of live operations — that the conviction behind Ditchbridge was born: operational teams need a tool designed for them, not adapted from another sector. He recently complemented this operational expertise with a business strategy certification from HEC, obtained in January 2026.
+
+<img src="{site.url.resolve('/Charles_Sabourdin.jpg')}" alt="Charles Sabourdin" style="width:160px;height:160px;object-fit:cover;border-radius:50%;object-position:center 20%;">
 
 **Charles Sabourdin — Chief Technical Officer**
 
