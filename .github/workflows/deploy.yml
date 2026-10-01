@@ -15,7 +15,11 @@ jobs:
       - name: Generate Roq Site
         uses: quarkiverse/quarkus-roq@v1.1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          # Le site est servi à la racine de www.ditchbridge.fr (Scaleway S3) :
+          # sans ce paramètre, l'action utilise l'URL GitHub Pages et préfixe
+          # tous les liens par /fr-ditchbridge-www/.
+          site-url: https://www.ditchbridge.fr/
+          github-pages: false
       - name: Sync to Scaleway S3
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.SCW_ACCESS_KEY_ID }}
@@ -27,6 +31,4 @@ jobs:
           aws s3 sync target/roq/ "$BUCKET/" \
             --endpoint-url "$ENDPOINT" \
             --delete
-          aws s3 sync target/roq/ "$BUCKET/fr-ditchbridge-www/" \
-            --endpoint-url "$ENDPOINT"
 

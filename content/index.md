@@ -7,23 +7,23 @@ greeting: Bienvenue chez Ditchbridge
 tagline: "De la donnée à l'action coordonnée : la plateforme de pilotage opérationnel pour les environnements complexes."
 navigation:
   - title: La plateforme
-    url: /product
+    url: /product/
   - title: La société
-    url: /company
+    url: /company/
   - title: L'équipe
-    url: /team
+    url: /team/
   - title: Nos valeurs
-    url: /values
+    url: /values/
   - title: Contact
-    url: /contact
+    url: /contact/
   - title: Mentions légales
-    url: /about
+    url: /about/
 social:
 paginate: posts
 badge: "🎯 La tour de contrôle de vos opérations"
 cta_discover: "Découvrir la plateforme →"
 cta_contact: "Prendre contact"
-product_url: /product
+product_url: /product/
 cta_title: "Vous souhaitez en savoir plus ou collaborer ?"
 feat1_icon: ico-dashboard
 feat1_title: "Vision globale"

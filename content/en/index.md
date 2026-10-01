@@ -7,23 +7,23 @@ greeting: Welcome to Ditchbridge
 tagline: "From data to action: the operational command platform for complex environments."
 navigation:
   - title: The Platform
-    url: /en/product
+    url: /en/product/
   - title: The Company
-    url: /en/company
+    url: /en/company/
   - title: The Team
-    url: /en/team
+    url: /en/team/
   - title: Our Values
-    url: /en/values
+    url: /en/values/
   - title: Contact
-    url: /en/contact
+    url: /en/contact/
   - title: Legal Notice
-    url: /en/about
+    url: /en/about/
 social:
 paginate: posts
 badge: "🎯 The operational control tower"
 cta_discover: "Discover the platform →"
 cta_contact: "Get in touch"
-product_url: /en/product
+product_url: /en/product/
 cta_title: "Want to learn more or work together?"
 feat1_icon: ico-dashboard
 feat1_title: "Unified operational view"
