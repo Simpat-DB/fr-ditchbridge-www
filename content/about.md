@@ -31,7 +31,7 @@ La marque Ditchbridge ainsi que les technologies et éléments logiciels associ�
 
 ## 4. Données personnelles et cookies
 
-Les données personnelles collectées via ce site (notamment via le formulaire de contact) sont traitées conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés. Elles sont utilisées exclusivement pour répondre aux demandes des visiteurs et ne sont ni cédées ni transmises à des tiers sans consentement préalable.
+Les données personnelles collectées via ce site sont traitées conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés. Elles sont utilisées exclusivement pour répondre aux demandes des visiteurs et ne sont ni cédées ni transmises à des tiers sans consentement préalable.
 
 Pour toute question relative à vos données personnelles : **contact@ditchbridge.fr**
 

@@ -27,7 +27,7 @@ Ditchbridge connecte tous les acteurs : du manager à l'agent sur le terrain, en
 
 ### Gestion des incidents
 
-Les dysfonctionnements sont tracés, assignés et suivis jusqu'à leur résolution. Chaque incident génère un historique complet, exploitable en post-événement et lalimentant une base de données historiques pour améliorer les processus.
+Les dysfonctionnements sont tracés, assignés et suivis jusqu'à leur résolution. Chaque incident génère un historique complet, exploitable en post-événement et alimentant une base de données historiques pour améliorer les processus.
 
 ### Accessibilité totale
 

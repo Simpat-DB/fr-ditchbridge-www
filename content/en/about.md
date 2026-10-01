@@ -32,7 +32,7 @@ The Ditchbridge trademark and the associated technologies and software elements 
 
 ## 4. Personal data and cookies
 
-Personal data collected through this site (in particular via the contact form) is processed in accordance with the General Data Protection Regulation (GDPR) and the French Data Protection Act (loi Informatique et Libertés). It is used solely to respond to visitors' requests and is neither sold nor passed on to third parties without prior consent.
+Personal data collected through this site is processed in accordance with the General Data Protection Regulation (GDPR) and the French Data Protection Act (loi Informatique et Libertés). It is used solely to respond to visitors' requests and is neither sold nor passed on to third parties without prior consent.
 
 For any question regarding your personal data: **contact@ditchbridge.fr**
 
