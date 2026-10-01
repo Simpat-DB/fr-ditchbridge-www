@@ -20,6 +20,23 @@ navigation:
     url: /about
 social:
 paginate: posts
+badge: "🎯 La tour de contrôle de vos opérations"
+cta_discover: "Découvrir la plateforme →"
+cta_contact: "Prendre contact"
+product_url: /product
+cta_title: "Vous souhaitez en savoir plus ou collaborer ?"
+feat1_icon: ico-dashboard
+feat1_title: "Vision globale"
+feat1_desc: "Supervisez l'intégralité de votre événement depuis un tableau de bord unique : billetterie, accès, prestataires et flux en temps réel."
+feat2_icon: ico-pulse
+feat2_title: "Réactivité terrain"
+feat2_desc: "Escalade automatique des alertes, validation en un geste depuis mobile ou montre connectée — intervenez instantanément, partout."
+feat3_icon: ico-network
+feat3_title: "Coordination fluide"
+feat3_desc: "Connectez décideurs, équipes terrain et prestataires. Fini les silos : tout le monde dispose des bonnes informations au bon moment."
+partner_label: "Partenaire de recherche"
+partner_title: "Une plateforme adossée à la recherche scientifique"
+partner_desc: "Ditchbridge collabore avec le Centre Génie Industriel d'IMT Mines Albi pour intégrer des approches décisionnelles avancées dans la gestion de vos événements."
 ---
 
 

@@ -1,5 +1,6 @@
+{#let isEn=page.url.path.startsWith('/en/')}
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang="{isEn ? 'en' : 'fr'}" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -89,7 +90,7 @@
             <!-- Col 1 : Marque + réseaux sociaux -->
             <div>
                 <p class="footer-brand">Ditchbridge</p>
-                <p class="footer-tagline">La plateforme qui transforme vos données en décisions opérationnelles.</p>
+                <p class="footer-tagline">{isEn ? 'The platform that turns your data into operational decisions.' : 'La plateforme qui transforme vos données en décisions opérationnelles.'}</p>
                 <div class="footer-social">
                     <a href="{site.url.resolve('/bientot')}" class="footer-social-link" aria-label="LinkedIn" title="Ditchbridge sur LinkedIn">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -107,26 +108,34 @@
             <div>
                 <p class="footer-col-title">Navigation</p>
                 <nav class="footer-links">
+                    {#if isEn}
+                    <a href="{site.url.resolve('/en/product')}">The Platform</a>
+                    <a href="{site.url.resolve('/en/company')}">The Company</a>
+                    <a href="{site.url.resolve('/en/team')}">The Team</a>
+                    <a href="{site.url.resolve('/en/values')}">Our Values</a>
+                    {#else}
                     <a href="{site.url.resolve('/product')}">La plateforme</a>
                     <a href="{site.url.resolve('/company')}">La société</a>
                     <a href="{site.url.resolve('/team')}">L'équipe</a>
                     <a href="{site.url.resolve('/values')}">Nos valeurs</a>
+                    {/if}
                 </nav>
             </div>
             <!-- Col 3 : Liens utiles -->
             <div>
-                <p class="footer-col-title">Liens utiles</p>
+                <p class="footer-col-title">{isEn ? 'Useful links' : 'Liens utiles'}</p>
                 <nav class="footer-links">
                     <a href="mailto:contact@ditchbridge.fr">Contact</a>
-                    <a href="{site.url.resolve('/about')}">Mentions légales</a>
+                    <a href="{site.url.resolve(isEn ? '/en/about' : '/about')}">{isEn ? 'Legal Notice' : 'Mentions légales'}</a>
                 </nav>
             </div>
         </div>
         <div class="footer-bottom">
-            <span>&copy; {now.format('Y')} Ditchbridge. Tous droits réservés.</span>
-            <span>Construit avec <a href="https://iamroq.dev" target="_blank" style="text-decoration:none;color:inherit;">Roq 🗿</a></span>
+            <span>&copy; {now.format('Y')} Ditchbridge. {isEn ? 'All rights reserved.' : 'Tous droits réservés.'}</span>
+            <span>{isEn ? 'Built with' : 'Construit avec'} <a href="https://iamroq.dev" target="_blank" style="text-decoration:none;color:inherit;">Roq 🗿</a></span>
         </div>
     </footer>
 
 </body>
 </html>
+{/let}
