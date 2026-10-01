@@ -1,69 +1,58 @@
 ---
-title: Join Us
-navigation:
-  - title: The Platform
-    url: /en/product/
-  - title: The Company
-    url: /en/company/
-  - title: The Team
-    url: /en/team/
-  - title: Our Values
-    url: /en/values/
-  - title: Contact
-    url: /en/contact/
-  - title: Legal Notice
-    url: /en/about/
+title: Careers
+description: "Ditchbridge — From data to coordinated action: the operational command platform for complex environments."
 ---
 
-## We're hiring — come build with us
+![dev.png](/profiles/2026-01-06-javadevelopper/dev.png)
 
-At Ditchbridge, we're not just looking for job titles. We want people who love great tech and want to make a real difference for the people using our platform.
+### Job description: Developer / Architect
 
----
+Or village constable — the title hardly matters: we want to have fun with technologies we love and that make life easier for everyone.
 
-### Role: Software Developer / Architect
-
-Call it what you like — what matters is that you enjoy building things that work and learning every day.
-
-#### Main Responsibilities
+#### Main responsibilities:
 
 - Design, develop and maintain high-performance, scalable web and mobile applications.
-- Write clean, testable and well-documented code.
-- Contribute to technical architecture decisions and code reviews.
-- Fix bugs and optimise performance of existing features.
+- Write clean, testable and documented code.
+- Take part in technical architecture choices and code reviews.
+- Fix bugs and optimise the performance of existing features.
 
-#### Key Skills
+#### Key skills:
 
-- Solid grasp of modern languages (Java first and foremost).
-- Comfort with core tools (Maven, IntelliJ, GitLab or GitHub).
-- Experience with backend frameworks (Quarkus, etc.).
-- Familiarity with relational databases (PostgreSQL, MySQL) and NoSQL (MongoDB).
-- Rigorous use of Git and version control best practices.
+- Proficiency in modern languages (Java).
+- Proficiency in core tools (Maven, IntelliJ, GitLab or GitHub).
+- Proficiency in frameworks (Quarkus, Quinoa, etc.).
+- Relational (PostgreSQL, MySQL) and NoSQL (MongoDB) database management.
+- Rigorous use of Git and version control tools.
 
-#### Who We're Looking For
+#### Profile:
 
-We could say "passionate about code" — but honestly, we recruit pragmatic people who know how to balance a healthy personal life with the energy of a startup. Communication and proactivity are the baseline.
+We should say "Passionate about code..."
+But in practice we hire pragmatic people who know how to balance personal life with the pressure of start-up life.
+Communication and proactivity are the foundation.
 
 <hr />
 
-### Role: DevOps Engineer (Kubernetes)
+![devops.png](/profiles/2026-01-10-devops/devops.png)
 
-One part conductor, one part problem-solver, full-time enabler.
+### Job description: DevOps Engineer (Kube)
 
-#### Main Responsibilities
+We thought about opening a position for a bear tamer, or a one-man band, but in the end…
 
-- Automate and optimise application deployment pipelines (CI/CD).
-- Manage, secure and scale the company's cloud infrastructure.
-- Set up monitoring, performance tracking and real-time alerting.
-- Work closely with development teams to streamline production releases and ensure high availability.
+#### Main responsibilities:
 
-#### Key Skills
+- Automate and optimise application deployment cycles (CI/CD pipelines).
+- Manage, secure and evolve the company's cloud infrastructure.
+- Set up monitoring, performance tracking and real-time alert management.
+- Work with development teams to streamline releases and guarantee high availability.
 
-- Containerisation and orchestration (Docker, Kubernetes).
-- Infrastructure as Code (Terraform, Ansible).
-- Cloud environments (Scaleway) and CI/CD tools (GitHub Actions, GitLab CI).
-- Strong system administration (Linux), networking and security skills.
+#### Key skills:
 
-#### Who We're Looking For
+- Proficiency in containerisation and orchestration (Docker, Kubernetes).
+- Practice of Infrastructure as Code (Terraform, Ansible).
+- Proficiency in cloud environments (Scaleway) and CI/CD tools (GitHub Actions, GitLab CI).
+- Solid skills in system administration (Linux), networking and security.
 
-Honestly, if we said "Methodical, reactive, with a solid culture of security, resilience and automation" — would you apply? We want people who automate their work and deliver when it counts. The rest of the time is yours.
+#### Profile:
+
+Seriously, if we said "Methodical, responsive, with a solid culture of security, resilience and automation", would you come?
+No — we want people who want to script their work and deliver when needed; the rest of the time is yours.
