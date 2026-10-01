@@ -50,4 +50,4 @@ En orchestrant les tâches récurrentes et en fluidifiant la communication, Ditc
 
 ## Une agilité totale, du bureau au terrain
 
-Accessible à travers son écosystème complet — tableaux de bord stratégiques, applications mobiles et wearables —, Ditchbridge vous accompagne partout et à tout moment. Que ce soit pour piloter une crise depuis une montre connectée, approuver un workflow en déplacement ou ajuster une stratégie depuis le centre des opérations, la plateforme garantit une continuité décisionnelle sans interruption. Ditchbridge transforme ainsi le pilotage de vos en un levier d'agilité, de performance et de sérénité.
+Accessible à travers son écosystème complet — tableaux de bord stratégiques, applications mobiles et wearables —, Ditchbridge vous accompagne partout et à tout moment. Que ce soit pour piloter une crise depuis une montre connectée, approuver un workflow en déplacement ou ajuster une stratégie depuis le centre des opérations, la plateforme garantit une continuité décisionnelle sans interruption. Ditchbridge transforme ainsi le pilotage de vos opérations en un levier d'agilité, de performance et de sérénité.

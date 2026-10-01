@@ -11,8 +11,6 @@ navigation:
     url: /company
   - title: Les equipes
     url: /team
-  - title: Nous rejoindre
-    url: /recrutement
   - title: Nos valeurs
     url: /values
   - title: Blog
