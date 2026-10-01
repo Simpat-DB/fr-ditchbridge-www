@@ -2,17 +2,17 @@
 title: Our Values
 navigation:
   - title: The Platform
-    url: /en/product
+    url: /en/product/
   - title: The Company
-    url: /en/company
+    url: /en/company/
   - title: The Team
-    url: /en/team
+    url: /en/team/
   - title: Our Values
-    url: /en/values
+    url: /en/values/
   - title: Contact
-    url: /en/contact
+    url: /en/contact/
   - title: Legal Notice
-    url: /en/about
+    url: /en/about/
 ---
 
 Ditchbridge upholds a demanding and responsible vision of technology in service of critical operations. Five convictions guide our daily approach to designing our platform and building our company.

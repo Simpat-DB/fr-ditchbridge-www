@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 {#insert /}
@@ -13,7 +13,7 @@ layout: default
       var svg = document.createElementNS('http://www.w3.org/2000/svg','svg');
       svg.setAttribute('width','22'); svg.setAttribute('height','22');
       svg.setAttribute('aria-hidden','true');
-      svg.style.cssText = 'color:var(--color-accent-500);flex-shrink:0;vertical-align:middle;margin-right:8px;margin-bottom:3px;';
+      svg.style.cssText = 'display:inline-block;color:var(--color-accent-500);flex-shrink:0;vertical-align:middle;margin-right:8px;margin-bottom:3px;';
       var use = document.createElementNS('http://www.w3.org/2000/svg','use');
       use.setAttribute('href','#' + icons[i]);
       svg.appendChild(use);

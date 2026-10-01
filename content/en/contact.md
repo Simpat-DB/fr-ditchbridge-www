@@ -2,17 +2,17 @@
 title: Contact
 navigation:
   - title: The Platform
-    url: /en/product
+    url: /en/product/
   - title: The Company
-    url: /en/company
+    url: /en/company/
   - title: The Team
-    url: /en/team
+    url: /en/team/
   - title: Our Values
-    url: /en/values
+    url: /en/values/
   - title: Contact
-    url: /en/contact
+    url: /en/contact/
   - title: Legal Notice
-    url: /en/about
+    url: /en/about/
 ---
 
 Whether you are an event organiser, operations manager, partner, or investor wishing to speak with the Ditchbridge team, do not hesitate to get in touch.

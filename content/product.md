@@ -1,5 +1,6 @@
 ---
 title: La Plateforme
+layout: product
 ---
 
 ## Une vision : réconcilier technologie et terrain

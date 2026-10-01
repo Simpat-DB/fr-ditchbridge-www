@@ -2,17 +2,17 @@
 title: The Team
 navigation:
   - title: The Platform
-    url: /en/product
+    url: /en/product/
   - title: The Company
-    url: /en/company
+    url: /en/company/
   - title: The Team
-    url: /en/team
+    url: /en/team/
   - title: Our Values
-    url: /en/values
+    url: /en/values/
   - title: Contact
-    url: /en/contact
+    url: /en/contact/
   - title: Legal Notice
-    url: /en/about
+    url: /en/about/
 ---
 
 Ditchbridge brings together a founding team drawn directly from field event operations and software engineering, supported by a scientific advisory board composed of the researchers behind the technology on which the platform is built.

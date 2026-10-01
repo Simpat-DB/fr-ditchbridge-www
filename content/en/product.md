@@ -32,4 +32,4 @@ Its digital twin function also allows Ditchbridge to simulate procedures and exc
 
 ---
 
-*Want to learn more or explore a partnership? [Contact us](/en/contact).*
+*Want to learn more or explore a partnership? [Contact us](/en/contact/).*
