@@ -2,9 +2,9 @@
 layout: landing
 title: Ditchbridge
 description: >-
-  Ditchbridge — From data to action: the operational command platform for complex environments.
+  Ditchbridge — From data to coordinated action: the operational command platform for complex environments.
 greeting: Welcome to Ditchbridge
-tagline: "From data to action: the operational command platform for complex environments."
+tagline: "From data to coordinated action: the operational command platform for complex environments."
 navigation:
   - title: The Platform
     url: /en/product/
@@ -20,33 +20,34 @@ navigation:
     url: /en/about/
 social:
 paginate: posts
-badge: "🎯 The operational control tower"
+badge: "🎯 The control tower for your operations"
 cta_discover: "Discover the platform →"
 cta_contact: "Get in touch"
 product_url: /en/product/
 cta_title: "Want to learn more or work together?"
 feat1_icon: ico-dashboard
-feat1_title: "Unified operational view"
-feat1_desc: "Monitor your entire site from a single dashboard: access, field teams, alerts and real-time flows."
+feat1_title: "Global view"
+feat1_desc: "Oversee your entire event from a single dashboard: ticketing, access, contractors and flows in real time."
 feat2_icon: ico-pulse
 feat2_title: "Field responsiveness"
-feat2_desc: "Automatic alert escalation, validated in one gesture from mobile or wearable — respond instantly, anywhere."
+feat2_desc: "Automatic alert escalation, one-tap approval from a mobile phone or smartwatch — act instantly, anywhere."
 feat3_icon: ico-network
 feat3_title: "Seamless coordination"
 feat3_desc: "Connect decision-makers, field teams and contractors. No more silos: everyone has the right information at the right time."
 partner_label: "Research partner"
-partner_title: "A platform backed by academic research"
-partner_desc: "Ditchbridge collaborates with the Industrial Engineering centre of IMT Mines Albi to integrate advanced decision-making approaches into your event management."
+partner_title: "A platform backed by scientific research"
+partner_desc: "Ditchbridge works with the Industrial Engineering Centre of IMT Mines Albi to bring advanced decision-making approaches to the management of your events."
 ---
 
-## A unified view for seamless operations
 
-Ditchbridge centralises all data flows from your operational environment into a single interface — access control, field teams, alerts, communications — and delivers a real-time digital twin of your site, readable at a glance. Operations teams share a common situational picture with field responders, where today's tools are typically siloed by department or zone.
+## A global view for flawless events
 
-## Anticipate rather than react
+Ditchbridge reinvents operational organisation by bringing your strategic information and team coordination together in a single interface. Designed to connect decision-makers, field teams and contractors, it breaks down information silos to give you crystal-clear visibility over your entire event. Thanks to real-time data aggregation, you stay in full control of your organisation and anticipate the unexpected before it disrupts your operations.
 
-The core of Ditchbridge is a decision engine designed to detect early signals of deterioration before they escalate into incidents: congestion at a gate, access saturation, a delay spreading across the site. Rather than simply reporting incidents after the fact, the platform anticipates and proposes an explainable, reasoned response plan built on prior experience — then the decision-maker validates or adjusts the operational response.
+## Smart automation serving your teams
 
-## From decision to action, without gaps
+By orchestrating recurring tasks and streamlining communication, Ditchbridge becomes your organisers' true right hand. The platform simplifies alert escalation, speeds up approval processes and guides interventions step by step, ensuring optimal responsiveness to emergencies in the field. By reducing operational friction and the risk of human error, your teams free up valuable time to focus on what matters most: the success of your operations.
 
-Once a decision is validated, Ditchbridge orchestrates its execution: every responder receives their task in real time on their field application, accepts it, carries it out, and confirms completion. Operations command tracks the response in real time with full traceability — a continuous chain from data, to decision, to action, with no re-entry or handoff gaps between teams.
+## Total agility, from the office to the field
+
+Available across its complete ecosystem — strategic dashboards, mobile apps and wearables — Ditchbridge goes with you everywhere, at any time. Whether you are managing a crisis from a smartwatch, approving a workflow on the move or adjusting a strategy from the operations centre, the platform ensures uninterrupted decision-making continuity. Ditchbridge turns the management of your events into a lever for agility, performance and peace of mind.

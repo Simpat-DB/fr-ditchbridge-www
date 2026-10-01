@@ -1,40 +1,24 @@
 ---
-title: The Team
-navigation:
-  - title: The Platform
-    url: /en/product/
-  - title: The Company
-    url: /en/company/
-  - title: The Team
-    url: /en/team/
-  - title: Our Values
-    url: /en/values/
-  - title: Contact
-    url: /en/contact/
-  - title: Legal Notice
-    url: /en/about/
+title: Our Team
+description: "Ditchbridge — From data to coordinated action: the operational command platform for complex environments."
 ---
-
-Ditchbridge brings together a founding team drawn directly from field event operations and software engineering, supported by a scientific advisory board composed of the researchers behind the technology on which the platform is built.
-
-## The founding team
 
 <img src="{site.url.resolve('/Photo_SPA.jpg')}" alt="Simon Patard" style="width:160px;height:160px;object-fit:cover;border-radius:50%;">
 
-**Simon Patard — President & founder**
+### **Simon**: field instinct serving an ambitious vision
 
-With ten years in the event operations of Paris Saint-Germain, followed by three years at the organising committee of the Paris 2024 Olympic and Paralympic Games, Simon Patard has led demanding and varied event deployments. It is from this direct experience — in daily contact with field constraints and the pressure of live operations — that the conviction behind Ditchbridge was born: operational teams need a tool designed for them, not adapted from another sector. He recently complemented this operational expertise with a business strategy certification from HEC, obtained in January 2026.
+Some entrepreneurs are not daunted by complex challenges — quite the opposite: they thrive on them. Simon is one of those builders able to bridge the demands of the field and technological precision perfectly.
+
+Passionate, determined and with a genuine culture of action, Simon embodies a natural leadership that immediately brings people together. His approach stands out for a sharp understanding of operational challenges and a rare ability to turn dense organisational problems into smooth, effective and intuitive solutions. Both visionary and deeply pragmatic, he knows how to set the right momentum, connect expertise — from software engineering to cutting-edge scientific research — and move his projects forward with clarity.
+
+Combining responsiveness with a strong team spirit, Simon always moves forward with one priority: delivering concrete value and guaranteeing excellence, without ever losing sight of simplicity of execution. This human and technical drive makes him a true catalyst for innovation.
 
 <img src="{site.url.resolve('/Charles_Sabourdin.jpg')}" alt="Charles Sabourdin" style="width:160px;height:160px;object-fit:cover;border-radius:50%;object-position:center 20%;">
 
-**Charles Sabourdin — Chief Technical Officer**
+### **Charles**: technical excellence and the art of resilient architecture
 
-A graduate of ESSEC and ESIEA, Charles Sabourdin is a senior software architect specialising in Java environments, application security, and the production deployment of critical systems. He leads the technical design of the platform and its transformation from research technology into a robust, secure industrial product.
+Behind every flawlessly reliable system lies a methodical and brilliant mind. Charles is the technical linchpin who turns raw complexity into smooth, robust and rock-solid infrastructure.
 
-## The scientific advisory board
+A leading expert in software engineering and the Java ecosystem, Charles stands out for a highly mature architectural vision and surgical precision in design. Where others see technical obstacles or insurmountable load constraints, he sees equations to solve and mechanisms to optimise. Always on the lookout for best practices and passionate about high-performance technologies, he builds application foundations able to absorb the most ambitious challenges without ever faltering.
 
-Ditchbridge relies on a committee of recognised researchers, originators of the platform's foundational work:
-
-**Frédérick Benaben** — Professor of information systems at IMT Mines Albi and Georgia Tech, specialist in modelling and digital tools for collaboration and decision-making in complex environments. He is the creator of the R-IO Suite research platform, at the origin of the Ditchbridge project.
-
-**Sébastien Rebiere and Nicolas Salatge** — Research engineers at the Industrial Engineering centre of IMT Mines Albi, co-developers of the R-IO Suite platform.
+Beyond his deep technical mastery, Charles brings invaluable strength to the team: a rare ability to connect research, field needs and elegant code. Calm, rigorous and deeply quality-driven, he embodies engineering excellence and inspires complete confidence in his teams and partners alike.

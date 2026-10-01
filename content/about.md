@@ -27,7 +27,7 @@ Scaleway est une filiale du groupe Iliad, société française, dont les datacen
 
 L'ensemble des contenus présents sur ce site (textes, visuels, logos, marques, éléments graphiques et logiciels) est la propriété exclusive de la société éditrice ou de ses partenaires, sauf mention contraire, et est protégé par le droit de la propriété intellectuelle. Toute reproduction, représentation, modification ou exploitation, totale ou partielle, sans autorisation préalable écrite, est interdite.
 
-La dénomination Ditchbridge ainsi que les technologies et éléments logiciels associés font l'objet de démarches de protection en cours (dépôt de marque, protection du code source, enveloppe de datation), notamment auprès de l'Institut National de la Propriété Industrielle (INPI) et de l'Agence pour la Protection des Programmes (APP).
+La marque Ditchbridge ainsi que les technologies et éléments logiciels associés sont protégés.
 
 ## 4. Données personnelles et cookies
 

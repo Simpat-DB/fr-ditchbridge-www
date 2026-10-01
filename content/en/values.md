@@ -1,38 +1,24 @@
 ---
 title: Our Values
-navigation:
-  - title: The Platform
-    url: /en/product/
-  - title: The Company
-    url: /en/company/
-  - title: The Team
-    url: /en/team/
-  - title: Our Values
-    url: /en/values/
-  - title: Contact
-    url: /en/contact/
-  - title: Legal Notice
-    url: /en/about/
+description: "Ditchbridge — From data to coordinated action: the operational command platform for complex environments."
 ---
 
-Ditchbridge upholds a demanding and responsible vision of technology in service of critical operations. Five convictions guide our daily approach to designing our platform and building our company.
+## 1. Field standards
 
-## Anticipate rather than react
+We build tools designed by and for people in action. Every feature is designed to match your operational realities, give you immediate responsiveness and handle the unexpected without losing a second.
 
-Our founding belief: the best incident management is the one that prevents it. We design every feature of Ditchbridge with this anticipation logic, serving teams that must be able to act before a situation deteriorates, rather than simply reacting once a problem has occurred.
+## 2. Rigour
 
-## Field rigour
+When error is not an option, precision becomes an obligation. We guarantee you systems of absolute reliability, robust architecture and maximum security, so that your operations run without the slightest hitch.
 
-Our legitimacy comes from direct experience in event operations. We design Ditchbridge with the same standards that managing a large live event demands: reliability, clarity, and availability without compromise.
+## 3. Simplicity
 
-## Assumed technological sovereignty
+Behind highly complex technologies, we choose clarity. We turn data volumes and unreadable dashboards into smooth, clear and intuitive interfaces, so you stay in control at a glance.
 
-The Ditchbridge software is designed and developed in France, in connection with public academic research. We carry the ambition of a sovereign tool, controlled end-to-end, for stakeholders — public and private alike — for whom mastery of operational data is a strategic issue.
+## 4. Team spirit
 
-## Responsible technology
+A major event or project is never achieved alone. Our founder's sporting DNA shows in the values of sharing, commitment and cohesion that drive Ditchbridge. We see ourselves as an extension of your teams: an available, attentive partner committed to your side, from preparation through to the final review.
 
-We design our platform with a digital sobriety approach, constantly seeking to optimise the energy footprint of our infrastructure and artificial intelligence models, for ourselves as much as for our clients.
+## 5. Sovereignty
 
-## Sharing and creativity as drivers
-
-Ditchbridge cultivates a company culture built on seriousness, inclusion, knowledge sharing, and creativity. We believe the best responses to the complex challenges of event operations emerge from the encounter between different cultures — field experience, research, and engineering — and we cultivate this diversity within our team as well as with our partners.
+Your data and control over your choices belong to you. We are committed to providing an independent, secure infrastructure that meets the most demanding standards, to guarantee the complete confidentiality of your operations.
