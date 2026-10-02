@@ -10,7 +10,7 @@ La société Ditchbridge a été fondée par Simon Patard, qui a passé dix ans 
 
 ## Un ancrage académique fort
 
-Ditchbridge s'est construit en lien étroit avec le monde de la recherche, en particulier avec le centre Génie Industriel de l'IMT Mines Albi et les travaux de Frédérick BENABEN, Sébastien REBIERE et Nicolas SALATGE à l'origine de la technologie qui a inspiré la plateforme. La société est accompagnée par l'incubateur de l'IMT Mines Albi et par le programme Lanceur d'Étoiles, et poursuit des échanges avec plusieurs structures d'accompagnement en Occitanie. **Cet ancrage garantit à Ditchbridge un accès continu aux avancées les plus récentes en matière d'intelligence artificielle appliquée à la décision et de modélisation des systèmes complexes.**
+Ditchbridge s'est construit en lien étroit avec le monde de la recherche, en particulier avec le centre Génie Industriel de l'IMT Mines Albi et les travaux de Frédérick Benaben, Sébastien Rebiere et Nicolas Salatge à l'origine de la technologie qui a inspiré la plateforme. La société est accompagnée par l'incubateur de l'IMT Mines Albi et par le programme Lanceur d'Étoiles, et poursuit des échanges avec plusieurs structures d'accompagnement en Occitanie. **Cet ancrage garantit à Ditchbridge un accès continu aux avancées les plus récentes en matière d'intelligence artificielle appliquée à la décision et de modélisation des systèmes complexes.**
 
 ## Un positionnement clair sur un marché en forte croissance
 
